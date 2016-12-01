@@ -1,3 +1,5 @@
+#!/usr/bin/env python3
+
 import argparse
 
 class Block:
@@ -61,7 +63,7 @@ blockOperations = {
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()
     parser.add_argument("input", help="input text file")
-    parser.add_argument('rules', metavar='N', type=str, nargs='*', help='one of these: ' +", ".join(blockOperations.keys()))
+    parser.add_argument('rules', metavar='rule', type=str, nargs='*', help='one of these: ' +", ".join(blockOperations.keys()))
     args = parser.parse_args()
 
     with open(args.input, 'r') as f:
