@@ -20,5 +20,8 @@ class TestIO(unittest.TestCase):
         self.assertEqual(callTest("tests/a.text.in", "tests/a.text.out", ["QtoApostrophe"]), 0)
         self.assertEqual(callTest("tests/b.text.in", "tests/b.text.out", ["createMa", "QtoApostrophe"]), 0)
 
+    def test_ivaena(self):
+        self.assertEqual(callTest("tests/ivaena.text.in", "tests/ivaena.text.out", ["IvenaToIvaEna"]), 0)
+
 if __name__ == '__main__':
     unittest.main()

@@ -57,6 +57,7 @@ def createMa(block):
 
 blockOperations = {
     "QtoApostrophe": lambda block: Block([ [specialReplace(word, "q", "'") for word in entry ] for entry in block.entries]),
+    "IvenaToIvaEna": lambda block: Block([ [word.replace("ivena", "iva ena") for word in entry ] for entry in block.entries]),
     "createMa": createMa
 }
 
