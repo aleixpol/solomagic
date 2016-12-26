@@ -8,10 +8,19 @@ class Block:
     def __init__(self, entries = []):
         self.entries = entries
 
-    def getEntry(self, start):
+    def getEntry(self, name):
         for v in self.entries:
-            if v[0] == start:
+            if v[0] == name:
                 return v
+        raise "Scheisse"
+
+    def setEntry(self, name, value):
+        assert value[0] == name
+        print(self.entries)
+        for idx, v in enumerate(self.entries):
+            if v[0] == name:
+                self.entries[idx] = value
+                return
         raise "Scheisse"
 
     def doPrint(self):
@@ -50,7 +59,7 @@ def specialReplace(word, a, b):
         return word.replace(a, b)
 
 def createMa(block):
-    mtEntry = block.getEntry("\mt")
+    mtEntry = block.getEntry("\\mt")
     maEntry = ["\\ma"] + [word for word in mtEntry[1:] if word != '/']
     block.entries.append(maEntry)
     return block
