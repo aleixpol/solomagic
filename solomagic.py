@@ -3,29 +3,29 @@
 import argparse
 
 class Block:
-    entries = []
+    tiers = []
 
-    def __init__(self, entries = []):
-        self.entries = entries
+    def __init__(self, tiers = []):
+        self.tiers = tiers
 
-    def getEntry(self, name):
-        for v in self.entries:
+    def getTier(self, name):
+        for v in self.tiers:
             if v[0] == name:
                 return v
         raise "Scheisse"
 
-    def setEntry(self, name, value):
+    def setTier(self, name, value):
         assert value[0] == name
-        print(self.entries)
-        for idx, v in enumerate(self.entries):
+        print(self.tiers)
+        for idx, v in enumerate(self.tiers):
             if v[0] == name:
-                self.entries[idx] = value
+                self.tiers[idx] = value
                 return
         raise "Scheisse"
 
     def doPrint(self):
-        for entry in self.entries:
-            print(" ".join(entry))
+        for tier in self.tiers:
+            print(" ".join(tier))
 
 class FileInstance:
     blocks = []
@@ -47,7 +47,7 @@ def parse(f):
             ret.addBlock(currentBlock)
             currentBlock = Block()
         else:
-            currentBlock.entries.append(line.split())
+            currentBlock.tiers.append(line.split())
 
     ret.addBlock(currentBlock)
     return ret
@@ -59,14 +59,21 @@ def specialReplace(word, a, b):
         return word.replace(a, b)
 
 def createMa(block):
-    mtEntry = block.getEntry("\\mt")
-    maEntry = ["\\ma"] + [word for word in mtEntry[1:] if word != '/']
-    block.entries.append(maEntry)
+    mtTier = block.getTier("\\mt")
+    maTier = ["\\ma"] + [word for word in mtTier[1:] if word != '/']
+    block.tiers.append(maTier)
+    return block
+
+def potato(block):
+    mtTier = block.getTier("\\mt")
+    mtTier = ["\\mt"] + ["potato"+word for word in mtTier[1:] ]
+    block.setTier("\\mt", mtTier)
     return block
 
 blockOperations = {
-    "QtoApostrophe": lambda block: Block([ [specialReplace(word, "q", "'") for word in entry ] for entry in block.entries]),
-    "IvenaToIvaEna": lambda block: Block([ [word.replace("ivena", "iva ena") for word in entry ] for entry in block.entries]),
+    "QtoApostrophe": lambda block: Block([ [specialReplace(word, "q", "'") for word in tier ] for tier in block.tiers]),
+    "IvenaToIvaEna": lambda block: Block([ [word.replace("ivena", "iva ena") for word in tier ] for tier in block.tiers]),
+    "potato": potato,
     "createMa": createMa
 }
 
