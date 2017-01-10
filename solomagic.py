@@ -64,16 +64,9 @@ def createMa(block):
     block.tiers.append(maTier)
     return block
 
-def potato(block):
-    mtTier = block.getTier("\\mt")
-    mtTier = ["\\mt"] + ["potato"+word for word in mtTier[1:] ]
-    block.setTier("\\mt", mtTier)
-    return block
-
 blockOperations = {
     "QtoApostrophe": lambda block: Block([ [specialReplace(word, "q", "'") for word in tier ] for tier in block.tiers]),
     "IvenaToIvaEna": lambda block: Block([ [word.replace("ivena", "iva ena") for word in tier ] for tier in block.tiers]),
-    "potato": potato,
     "createMa": createMa
 }
 
