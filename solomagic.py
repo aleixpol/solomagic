@@ -58,15 +58,17 @@ def specialReplace(word, a, b):
     else:
         return word.replace(a, b)
 
-def createMa(block):
+def createMa(block, function = None):
     mtTier = block.getTier("\\mt")
     maTier = ["\\ma"] + [word for word in mtTier[1:] if word != '/']
+    if function:
+        maTier = function(maTier)
     block.tiers.append(maTier)
     return block
 
 blockOperations = {
     "QtoApostrophe": lambda block: Block([ [specialReplace(word, "q", "'") for word in tier ] for tier in block.tiers]),
-    "IvenaToIvaEna": lambda block: Block([ [word.replace("ivena", "iva ena") for word in tier ] for tier in block.tiers]),
+    "IvenaToIvaEna": lambda block: createMa(block, lambda tier: (word.replace("ivena", "iva ena") for word in tier)),
     "createMa": createMa
 }
 
