@@ -1,0 +1,1705 @@
+\_sh v3.0  400  Mytext
+\_DateStampHasFourDigitYear
+
+
+\ref bv_cs_nihenatuna_000
+
+\mt 
+\ma 
+\mb 
+\gl 
+\ps 
+
+\ft 
+\nt transk checked and pt with ES (13.07.2016)
+
+\arg 
+\bwo 
+\vo 
+\pt 
+\ELANBegin 00:00:00.000
+\ELANEnd 00:00:06.000
+\ELANParticipant unknown
+
+\ref bv_cs_nihenatuna_001
+
+\mt maha / maha hana lagali 'ita ga ele'a lagalagala / ha- nituang lagalagala
+\ma 
+\mb 
+\gl 
+\ps 
+
+\ft 
+\nt 
+
+\arg 
+\bwo 
+\vo 
+\pt bae mi storim wanfala kastom stori
+\ELANBegin 00:00:06.000
+\ELANEnd 00:00:14.030
+\ELANParticipant bv
+
+\ref bv_cs_nihenatuna_002
+
+\mt abu abu / abu / nitu saria lagalagala abu totona lagalagala / samang Mono
+\ma 
+\mb 
+\gl 
+\ps 
+
+\ft 
+\nt 
+
+\arg 
+\bwo 
+\vo 
+\pt hem no tru stori, but hem kastom stori nomoa blo mifala lo Mono
+\ELANBegin 00:00:14.030
+\ELANEnd 00:00:26.426
+\ELANParticipant bv
+
+\ref bv_cs_nihenatuna_003
+
+\mt hm / 'a'u sana ga ele'a nihe ava'ang
+\ma 
+\mb 
+\gl 
+\ps 
+
+\ft 
+\nt 
+
+\arg 
+\bwo 
+\vo 
+\pt hem stap nao wanfala snek lo bush
+\ELANBegin 00:00:27.457
+\ELANEnd 00:00:33.439
+\ELANParticipant bv
+
+\ref bv_cs_nihenatuna_004
+
+\mt ele'a nihe ena'a 'a'u sana  ava'ang kanegana / kanegana nihe 'a'u sana
+\ma 
+\mb 
+\gl 
+\ps 
+
+\ft 
+\nt 
+
+\arg 
+\bwo 
+\vo 
+\pt snek wea hem stap lo bush ia hem big snek
+\ELANBegin 00:00:33.439
+\ELANEnd 00:00:40.848
+\ELANParticipant bv
+
+\ref bv_cs_nihenatuna_005
+
+\mt 'a'u sana ele'a lale i pole'e
+\ma 
+\mb 
+\gl 
+\ps 
+
+\ft 
+\nt 
+
+\arg 
+\bwo 
+\vo 
+\pt hem stap wanfala taem hem bambule
+\ELANBegin 00:00:40.848
+\ELANEnd 00:00:44.741
+\ELANParticipant bv
+
+\ref bv_cs_nihenatuna_006
+
+\mt i pole'e gaena / 'a'u sana lao i hapohaporo
+\ma 
+\mb 
+\gl 
+\ps 
+
+\ft 
+\nt odd RDPL
+
+\arg 
+\bwo 
+\vo 
+\pt hem bambule hem gogo hem bornem pikinini
+\ELANBegin 00:00:44.741
+\ELANEnd 00:00:50.327
+\ELANParticipant bv
+
+\ref bv_cs_nihenatuna_007
+
+\mt i hapori ga natuna 'avaisa
+\ma 
+\mb 
+\gl 
+\ps 
+
+\ft 
+\nt 
+
+\arg 
+\bwo 
+\vo 
+\pt hem bornem wanfala pikinini gele
+\ELANBegin 00:00:50.327
+\ELANEnd 00:00:53.747
+\ELANParticipant bv
+
+\ref bv_cs_nihenatuna_008
+
+\mt i nat- i hapori ga natuna 'avaisa / lao i sou'ai
+\ma 
+\mb 
+\gl 
+\ps 
+
+\ft 
+\nt 
+
+\arg 
+\bwo 
+\vo 
+\pt hem bornem pikinini gele ia den hem kipim
+\ELANBegin 00:00:53.747
+\ELANEnd 00:01:00.232
+\ELANParticipant bv
+
+\ref bv_cs_nihenatuna_009
+
+\mt i sou'ai i iolo ga tau'i'i ena'a
+\ma 
+\mb 
+\gl 
+\ps 
+
+\ft 
+\nt 
+
+\arg 
+\bwo 
+\vo 
+\pt hem kipim gogo pikinini ia hem big
+\ELANBegin 00:01:00.232
+\ELANEnd 00:01:03.947
+\ELANParticipant bv
+
+\ref bv_cs_nihenatuna_010
+
+\mt 'a'u sana i iolo
+\ma 
+\mb 
+\gl 
+\ps 
+
+\ft 
+\nt 
+
+\arg 
+\bwo 
+\vo 
+\pt gogo hem big
+\ELANBegin 00:01:03.947
+\ELANEnd 00:01:06.208
+\ELANParticipant bv
+
+\ref bv_cs_nihenatuna_011
+
+\mt iolo osong sou'ana ena saling nkana / maito / ati ona vakevakele re'apana'ang
+\ma 
+\mb 
+\gl 
+\ps 
+
+\ft 
+\nt 
+
+\arg 
+\bwo 
+\vo 
+\pt hem big evri taem mami blo hem save talem: iu no gogo farawe tumas
+\ELANBegin 00:01:06.208
+\ELANEnd 00:01:15.389
+\ELANParticipant bv
+
+\ref bv_cs_nihenatuna_012
+
+\mt so peuga ga hanua / ah bau eria si'o / ena ing
+\ma 
+\mb 
+\gl 
+\ps 
+
+\ft 
+\nt 
+
+\arg 
+\bwo 
+\vo 
+\pt bikos ota pipol stap no gud ota stilim iu hem save se lo hem
+\ELANBegin 00:01:15.389
+\ELANEnd 00:01:21.297
+\ELANParticipant bv
+
+\ref bv_cs_nihenatuna_013
+
+\mt ala 'avaisa ena'a nonono sana
+\ma 
+\mb 
+\gl 
+\ps 
+
+\ft 
+\nt 
+
+\arg 
+\bwo 
+\vo 
+\pt but gele herehere
+\ELANBegin 00:01:21.297
+\ELANEnd 00:01:25.081
+\ELANParticipant bv
+
+\ref bv_cs_nihenatuna_014
+
+\mt 'a'u sana i iolo ga 'avaisa ena'a
+\ma 
+\mb 
+\gl 
+\ps 
+
+\ft 
+\nt 
+
+\arg 
+\bwo 
+\vo 
+\pt hem stap gogo gele ia big
+\ELANBegin 00:01:25.081
+\ELANEnd 00:01:29.598
+\ELANParticipant bv
+
+\ref bv_cs_nihenatuna_015
+
+\mt i iolo lao / ele'a lale ele'a tiong i gagana 'ahilua
+\ma 
+\mb 
+\gl 
+\ps 
+
+\ft 
+\nt 
+
+\arg 
+\bwo 
+\vo 
+\pt hem big gogo, wan taem wanfala man hem go hant (hunt)
+\ELANBegin 00:01:29.598
+\ELANEnd 00:01:41.331
+\ELANParticipant bv
+
+\ref bv_cs_nihenatuna_016
+
+\mt i gagana 'ahilua lao i roroi ga 'avaisa ena'a
+\ma 
+\mb 
+\gl 
+\ps 
+
+\ft 
+\nt 
+
+\arg 
+\bwo 
+\vo 
+\pt hem go hanting hem lukim na gele ia
+\ELANBegin 00:01:41.331
+\ELANEnd 00:01:46.706
+\ELANParticipant bv
+
+\ref bv_cs_nihenatuna_017
+
+\mt i roroi i pekoi soma so ena okoti
+\ma 
+\mb 
+\gl 
+\ps 
+
+\ft 
+\nt 
+
+\arg 
+\bwo 
+\vo 
+\pt hem lukim hem barava laekem fo tekem
+\ELANBegin 00:01:46.706
+\ELANEnd 00:01:50.656
+\ELANParticipant bv
+
+\ref bv_cs_nihenatuna_018
+
+\mt ala abu i kare so ena okoti
+\ma 
+\mb 
+\gl 
+\ps 
+
+\ft 
+\nt 
+
+\arg 
+\bwo 
+\vo 
+\pt but hem hard lo hem fo tekem
+\ELANBegin 00:01:50.656
+\ELANEnd 00:01:54.408
+\ELANParticipant bv
+
+\ref bv_cs_nihenatuna_019
+
+\mt ga ele'a lale i gaganamale i kokope / i kokopeng
+\ma 
+\mb 
+\gl 
+\ps 
+
+\ft 
+\nt -APPL-vosuf w/ vosuf=vor wem man sich versteckt!
+
+\arg 
+\bwo 
+\vo 
+\pt so wantaem hem go baek moa hem go haed, hem go haed lo hem
+\ELANBegin 00:01:54.408
+\ELANEnd 00:02:01.865
+\ELANParticipant bv
+
+\ref bv_cs_nihenatuna_020
+
+\mt i kokope ala 'ata 'avaisa 'a'u sana lao i gagana i okoti
+\ma 
+\mb 
+\gl 
+\ps 
+
+\ft 
+\nt 
+
+\arg 
+\bwo 
+\vo 
+\pt hem haed gogo gele ia stap den hem just go holem
+\ELANBegin 00:02:01.865
+\ELANEnd 00:02:08.681
+\ELANParticipant bv
+
+\ref bv_cs_nihenatuna_021
+
+\mt i okoti / i mera / i mera / sana numa'ang
+\ma 
+\mb 
+\gl 
+\ps 
+
+\ft 
+\nt 
+
+\arg 
+\bwo 
+\vo 
+\pt hem tekem, den hem tekem go lo haus blo hem
+\ELANBegin 00:02:08.681
+\ELANEnd 00:02:18.901
+\ELANParticipant bv
+
+\ref bv_cs_nihenatuna_022
+
+\mt i sou'ai i 'evai / i 'evai 'a'u saria ga elua hanua ena'a
+\ma 
+\mb 
+\gl 
+\ps 
+
+\ft 
+\nt 
+
+\arg 
+\bwo 
+\vo 
+\pt hem go kipim, den hem maridim, gogo tufala stap
+\ELANBegin 00:02:18.901
+\ELANEnd 00:02:27.363
+\ELANParticipant bv
+
+\ref bv_cs_nihenatuna_023
+
+\mt 'a'u saria lao vataha i pole'e
+\ma 
+\mb 
+\gl 
+\ps 
+
+\ft 
+\nt 
+
+\arg 
+\bwo 
+\vo 
+\pt tufala stap woman ia  hem bambule
+\ELANBegin 00:02:27.363
+\ELANEnd 00:02:30.465
+\ELANParticipant bv
+
+\ref bv_cs_nihenatuna_024
+
+\mt i pole'e / i hapori ga natuna
+\ma 
+\mb 
+\gl 
+\ps 
+
+\ft 
+\nt 
+
+\arg 
+\bwo 
+\vo 
+\pt hem bambule, hem bornem pikinini blo hem
+\ELANBegin 00:02:30.465
+\ELANEnd 00:02:34.907
+\ELANParticipant bv
+
+\ref bv_cs_nihenatuna_025
+
+\mt i hapori ga natuna / ga osong sou'ana tau'i'i ena'a so / 'ae'ai ga ansousou'a
+\ma 
+\mb 
+\gl 
+\ps 
+
+\ft 
+\nt ansousou'a = agent NMLZ
+
+\arg 
+\bwo 
+\vo 
+\pt hem bornim pikinini blo hem, evri taem no eniwan stap fo kipim pikinini
+\ELANBegin 00:02:34.907
+\ELANEnd 00:02:45.330
+\ELANParticipant bv
+
+\ref bv_cs_nihenatuna_026
+
+\mt 'ae'ai ga ansousou'a ena / ena ua ga 'apana
+\ma 
+\mb 
+\gl 
+\ps 
+
+\ft 
+\nt 
+
+\arg 
+\bwo 
+\vo 
+\pt no eniwan fo kipim pikinini ia, dadi blo hem save se
+\ELANBegin 00:02:45.330
+\ELANEnd 00:02:51.054
+\ELANParticipant bv
+
+\ref bv_cs_nihenatuna_027
+
+\mt maha hana gagana hana hulahula / mang natun(g)ua emia gagana saiga'ang
+\ma 
+\mb 
+\gl 
+\ps 
+
+\ft 
+\nt 
+
+\arg 
+\bwo 
+\vo 
+\pt bae mi go fishing, iu tufala pikinini blo iu go lo garden
+\ELANBegin 00:02:51.054
+\ELANEnd 00:02:57.354
+\ELANParticipant bv
+
+\ref bv_cs_nihenatuna_028
+
+\mt ena ing ga sana vataha
+\ma 
+\mb 
+\gl 
+\ps 
+
+\ft 
+\nt 
+
+\arg 
+\bwo 
+\vo 
+\pt hem se lo waef blo hem
+\ELANBegin 00:02:57.354
+\ELANEnd 00:02:59.758
+\ELANParticipant bv
+
+\ref bv_cs_nihenatuna_029
+
+\mt ga / vataha e'a rekona ena ua / eria gagana saiga'ang natunaua
+\ma 
+\mb 
+\gl 
+\ps 
+
+\ft 
+\nt 
+
+\arg 
+\bwo 
+\vo 
+\pt so woman ia hem save se 'hem gud', hem wetem pikinini blo hem save go lo garden
+\ELANBegin 00:02:59.758
+\ELANEnd 00:03:07.549
+\ELANParticipant bv
+
+\ref bv_cs_nihenatuna_030
+
+\mt ena galo ena soku nihe sana hamata'ang ena hoku
+\ma 
+\mb 
+\gl 
+\ps 
+
+\ft 
+\nt 
+
+\arg 
+\bwo 
+\vo 
+\pt hem tekem go kasim ples blo snek, hem save saot
+\ELANBegin 00:03:07.549
+\ELANEnd 00:03:12.485
+\ELANParticipant bv
+
+\ref bv_cs_nihenatuna_031
+
+\mt nka ena ua nihe ena ua huhu maha peuga ena ua
+\ma 
+\mb 
+\gl 
+\ps 
+
+\ft 
+\nt 
+
+\arg 
+\bwo 
+\vo 
+\pt mami, hem save se, snek ia bae se 'ya mi stap' hem save se
+\ELANBegin 00:03:12.485
+\ELANEnd 00:03:19.861
+\ELANParticipant bv
+
+\ref bv_cs_nihenatuna_032
+
+\mt maha nka natugu ona sou'ai
+\ma 
+\mb 
+\gl 
+\ps 
+
+\ft 
+\nt 
+
+\arg 
+\bwo 
+\vo 
+\pt mi mami, iu kipim pikinini blo mi
+\ELANBegin 00:03:19.861
+\ELANEnd 00:03:24.493
+\ELANParticipant bv
+
+\ref bv_cs_nihenatuna_033
+
+\mt rekona meraiama ena ua ga nihe
+\ma 
+\mb 
+\gl 
+\ps 
+
+\ft 
+\nt 
+
+\arg 
+\bwo 
+\vo 
+\pt hem gud, tekemkam hem save se snek ia
+\ELANBegin 00:03:24.493
+\ELANEnd 00:03:28.507
+\ELANParticipant bv
+
+\ref bv_cs_nihenatuna_034
+
+\mt ena mera ena hae'ohotu ah / ou- ah e- / ovuovua
+\ma 
+\mb 
+\gl 
+\ps 
+
+\ft 
+\nt RDPL (cf \pt); ovuovu: shrubbery
+
+\arg 
+\bwo 
+\vo 
+\pt hem save tekem go, den putim daon lo oketa bush
+\ELANBegin 00:03:28.507
+\ELANEnd 00:03:38.398
+\ELANParticipant bv
+
+\ref bv_cs_nihenatuna_035
+
+\mt ena hae'o o- ovuovua / metumetuna'ang
+\ma 
+\mb 
+\gl 
+\ps 
+
+\ft 
+\nt 
+
+\arg 
+\bwo 
+\vo 
+\pt hem save livim lo ota bush ia, ota dirty bush ia
+\ELANBegin 00:03:38.398
+\ELANEnd 00:03:43.315
+\ELANParticipant bv
+
+\ref bv_cs_nihenatuna_036
+
+\mt nihe naina 'e'o sana / nihe korena'ang ena hae'osa'e ga natuna
+\ma 
+\mb 
+\gl 
+\ps 
+
+\ft 
+\nt 
+
+\arg 
+\bwo 
+\vo 
+\pt snek ia lo dea na hem lele daon, woman ia bae hem putim daon on top lo snek ia 
+\ELANBegin 00:03:43.315
+\ELANEnd 00:03:50.800
+\ELANParticipant bv
+
+\pt pikinini blo hem
+
+\ref bv_cs_nihenatuna_037
+
+\mt ena / gagana saiga'ang
+\ma 
+\mb 
+\gl 
+\ps 
+
+\ft 
+\nt 
+
+\arg 
+\bwo 
+\vo 
+\pt den hem go lo garden
+\ELANBegin 00:03:50.800
+\ELANEnd 00:03:55.617
+\ELANParticipant bv
+
+\ref bv_cs_nihenatuna_038
+
+\mt nihe ga angena genugenu / popone osong peuna eria genugenu
+\ma 
+\mb 
+\gl 
+\ps 
+
+\ft 
+\nt 
+
+\arg 
+\bwo 
+\vo 
+\pt taem snek ia seksek evri popone gras ia save seksek
+\ELANBegin 00:03:55.617
+\ELANEnd 00:04:01.013
+\ELANParticipant bv
+
+\ref bv_cs_nihenatuna_039
+
+\mt ena tai ga tau'i'i ena ena 'ela ga nihe
+\ma 
+\mb 
+\gl 
+\ps 
+
+\ft 
+\nt 
+
+\arg 
+\bwo 
+\vo 
+\pt sapos pikinini ia krae bae snek ia sing
+\ELANBegin 00:04:01.013
+\ELANEnd 00:04:05.666
+\ELANParticipant bv
+
+\ref bv_cs_nihenatuna_040
+
+\mt ena ua ela'ang kiaoe kong'o 'atu kuriauma  kurikikiauma kiaoe kong'o ena ua
+\ma 
+\mb 
+\gl 
+\ps 
+
+\ft 
+\nt 
+
+\arg 
+\bwo 
+\vo 
+\pt hem save se lo singsing blo hem [...] hem se
+\ELANBegin 00:04:05.666
+\ELANEnd 00:04:17.526
+\ELANParticipant bv
+
+\ref bv_cs_nihenatuna_041
+
+\mt ena hagehagenu ga ulina tau'i'i ena suele
+\ma 
+\mb 
+\gl 
+\ps 
+
+\ft 
+\nt 
+
+\arg 
+\bwo 
+\vo 
+\pt hem sesekem bodi blo hem, pikinini ia slip
+\ELANBegin 00:04:17.526
+\ELANEnd 00:04:22.729
+\ELANParticipant bv
+
+\ref bv_cs_nihenatuna_042
+
+\mt eria 'a'u saria ena tai iva nihe ena 'ela male
+\ma 
+\mb 
+\gl 
+\ps 
+
+\ft 
+\nt word order: iva S s V
+
+\arg 
+\bwo 
+\vo 
+\pt bae tufala stap gogo , hem krae bae snek ia sing moa
+\ELANBegin 00:04:22.729
+\ELANEnd 00:04:27.702
+\ELANParticipant bv
+
+\ref bv_cs_nihenatuna_043
+
+\mt ena ua kiaoe kong'o atu kuriauma kurikikiauma kiaoe kong'o ena ua ga nihe
+\ma 
+\mb 
+\gl 
+\ps 
+
+\ft 
+\nt 
+
+\arg 
+\bwo 
+\vo 
+\pt hem save se [...] hem save se na snek
+\ELANBegin 00:04:27.702
+\ELANEnd 00:04:39.912
+\ELANParticipant bv
+
+\ref bv_cs_nihenatuna_044
+
+\mt ah ena lahilahi iva ena lehema ga vataha ena aketi ga natu / na
+\ma 
+\mb 
+\gl 
+\ps 
+
+\ft 
+\nt 
+
+\arg 
+\bwo 
+\vo 
+\pt taem evening bae woman ia kam baek bae hem karim pikinini blo hem
+\ELANBegin 00:04:39.912
+\ELANEnd 00:04:46.865
+\ELANParticipant bv
+
+\ref bv_cs_nihenatuna_045
+
+\mt ena hahotu / eria hotu  hamata'ang
+\ma 
+\mb 
+\gl 
+\ps 
+
+\ft 
+\nt 
+
+\arg 
+\bwo 
+\vo 
+\pt bae hem tekem go daon, tufala go daon lo ples
+\ELANBegin 00:04:46.865
+\ELANEnd 00:04:50.715
+\ELANParticipant bv
+
+\ref bv_cs_nihenatuna_046
+
+\mt sana kanega osong sou'ana ena lehema tiga hulahula'ang ena aketi ga naturia
+\ma 
+\mb 
+\gl 
+\ps 
+
+\ft 
+\nt 
+
+\arg 
+\bwo 
+\vo 
+\pt husband blo hem evri taem  hem kam baek from fishing, bae hem karim pikinini blo oketa
+\ELANBegin 00:04:50.715
+\ELANEnd 00:04:57.584
+\ELANParticipant bv
+
+\ref bv_cs_nihenatuna_047
+
+\mt iva ena ua mh tau'i'i e'a 'o'o'ola sana ahana- hina viti hahae'oa sana / ena ua
+\ma 
+\mb 
+\gl 
+\ps 
+
+\ft 
+\nt 
+
+\arg 
+\bwo 
+\vo 
+\pt bae hem se 'mh, pikinini ia hem smel, hem mas livim lo wea ia, hem se
+\ELANBegin 00:04:57.584
+\ELANEnd 00:05:06.064
+\ELANParticipant bv
+
+\ref bv_cs_nihenatuna_048
+
+\mt e- ahana'ang viti hahae'oa sana nkana / ena ua e'a
+\ma 
+\mb 
+\gl 
+\ps 
+
+\ft 
+\nt 
+
+\arg 
+\bwo 
+\vo 
+\pt mami blo hem mas  putim lo wea ia, hem se
+\ELANBegin 00:05:06.064
+\ELANEnd 00:05:10.668
+\ELANParticipant bv
+
+\ref bv_cs_nihenatuna_049
+
+\mt ga / ena lale / ele'a lale e- i ua
+\ma 
+\mb 
+\gl 
+\ps 
+
+\ft 
+\nt 
+
+\arg 
+\bwo 
+\vo 
+\pt so nara de moa, wanfala taem hem se
+\ELANBegin 00:05:10.672
+\ELANEnd 00:05:17.514
+\ELANParticipant bv
+
+\ref bv_cs_nihenatuna_050
+
+\mt ha ivai hana hana hana sou'ai ga vataha e'a
+\ma 
+\mb 
+\gl 
+\ps 
+
+\ft 
+\nt 
+
+\arg 
+\bwo 
+\vo 
+\pt huh distaem ia bae mi kipim na woman ia
+\ELANBegin 00:05:17.514
+\ELANEnd 00:05:22.196
+\ELANParticipant bv
+
+\ref bv_cs_nihenatuna_051
+
+\mt hina viti hahae'oa sana ga tau'i'i
+\ma 
+\mb 
+\gl 
+\ps 
+
+\ft 
+\nt 
+
+\arg 
+\bwo 
+\vo 
+\pt hem mas putim lo wea pikinini ia
+\ELANBegin 00:05:22.196
+\ELANEnd 00:05:25.536
+\ELANParticipant bv
+
+\ref bv_cs_nihenatuna_052
+
+\mt i s- saling aisa mang emia gagana saiga'ang ing ga sana vataha / natuna
+\ma 
+\mb 
+\gl 
+\ps 
+
+\ft 
+\nt 
+
+\arg 
+\bwo 
+\vo 
+\pt hem talem 'oi, iufala go lo garden' hem se lo waef blo hem, and pikinini blo hem
+\ELANBegin 00:05:25.536
+\ELANEnd 00:05:32.005
+\ELANParticipant bv
+
+\ref bv_cs_nihenatuna_053
+
+\mt maha hana hose 'eta i ua
+\ma 
+\mb 
+\gl 
+\ps 
+
+\ft 
+\nt 
+
+\arg 
+\bwo 
+\vo 
+\pt bae mi padol fastaem, hem se
+\ELANBegin 00:05:32.005
+\ELANEnd 00:05:34.934
+\ELANParticipant bv
+
+\ref bv_cs_nihenatuna_054
+
+\mt i korino apu i hose
+\ma 
+\mb 
+\gl 
+\ps 
+
+\ft 
+\nt 
+
+\arg 
+\bwo 
+\vo 
+\pt hem laea, hem no padol
+\ELANBegin 00:05:34.934
+\ELANEnd 00:05:37.058
+\ELANParticipant bv
+
+\ref bv_cs_nihenatuna_055
+
+\mt i gaganama i kokope sou'ai ga sana vataha
+\ma 
+\mb 
+\gl 
+\ps 
+
+\ft 
+\nt 
+
+\arg 
+\bwo 
+\vo 
+\pt hem kam haed, hem watchim go waef blo hem
+\ELANBegin 00:05:37.058
+\ELANEnd 00:05:41.610
+\ELANParticipant bv
+
+\ref bv_cs_nihenatuna_056
+
+\mt i sou'aiau iri gagana saiga'ang
+\ma 
+\mb 
+\gl 
+\ps 
+
+\ft 
+\nt 
+
+\arg 
+\bwo 
+\vo 
+\pt hem kipim nomoa, tufala go lo garden
+\ELANBegin 00:05:41.610
+\ELANEnd 00:05:45.514
+\ELANParticipant bv
+
+\ref bv_cs_nihenatuna_057
+
+\mt i toka aroria'ang
+\ma 
+\mb 
+\gl 
+\ps 
+
+\ft 
+\nt 
+
+\arg 
+\bwo 
+\vo 
+\pt hem folo lo bihaend
+\ELANBegin 00:05:45.514
+\ELANEnd 00:05:47.559
+\ELANParticipant bv
+
+\ref bv_cs_nihenatuna_058
+
+\mt i gagana aroria'ang
+\ma 
+\mb 
+\gl 
+\ps 
+
+\ft 
+\nt 
+
+\arg 
+\bwo 
+\vo 
+\pt hem go lo bihaen blo oketa
+\ELANBegin 00:05:47.559
+\ELANEnd 00:05:49.522
+\ELANParticipant bv
+
+\ref bv_cs_nihenatuna_059
+
+\mt lao iri soku ele'a enaina ovuovua / i hoku ga vataha
+\ma 
+\mb 
+\gl 
+\ps 
+
+\ft 
+\nt 
+
+\arg 
+\bwo 
+\vo 
+\pt so ota kasim lo wanfala ples wea hem lelebet bushbush ia, woman ia hem saot
+\ELANBegin 00:05:49.522
+\ELANEnd 00:05:56.340
+\ELANParticipant bv
+
+\ref bv_cs_nihenatuna_060
+
+\mt nka i ua nihe i ua hu maha peuga i ua
+\ma 
+\mb 
+\gl 
+\ps 
+
+\ft 
+\nt 
+
+\arg 
+\bwo 
+\vo 
+\pt mami, hem se, hu mi stap hem se na snek
+\ELANBegin 00:05:56.340
+\ELANEnd 00:06:02.659
+\ELANParticipant bv
+
+\ref bv_cs_nihenatuna_061
+
+\mt o natugu e'a so ona sou'ai meraiama hana sou'ai i ua
+\ma 
+\mb 
+\gl 
+\ps 
+
+\ft 
+\nt 
+
+\arg 
+\bwo 
+\vo 
+\pt o pikinini blo mi lo hia fo iu kipim, tekem kam mi kipim hem se
+\ELANBegin 00:06:02.668
+\ELANEnd 00:06:08.781
+\ELANParticipant bv
+
+\ref bv_cs_nihenatuna_062
+
+\mt i gagana i hae'o ga tau'i'i
+\ma 
+\mb 
+\gl 
+\ps 
+
+\ft 
+\nt 
+
+\arg 
+\bwo 
+\vo 
+\pt hem go hem livim pikinini
+\ELANBegin 00:06:08.781
+\ELANEnd 00:06:13.456
+\ELANParticipant bv
+
+\ref bv_cs_nihenatuna_063
+
+\mt tiong aroria'ang roro sanama
+\ma 
+\mb 
+\gl 
+\ps 
+
+\ft 
+\nt assimilation!!!
+
+\arg 
+\bwo 
+\vo 
+\pt man ia from behaen hem lululuk kam
+\ELANBegin 00:06:13.456
+\ELANEnd 00:06:16.968
+\ELANParticipant bv
+
+\ref bv_cs_nihenatuna_064
+
+\mt i roroi i ua koe mange i ahaua ga tau'i'i / nnao 'ota i hae'o i ua
+\ma 
+\mb 
+\gl 
+\ps 
+
+\ft 
+\nt 
+
+\arg 
+\bwo 
+\vo 
+\pt hem lukim, hem se 'mae karange, hao na hem livim pikinini ia lo dea, hem se
+\ELANBegin 00:06:16.968
+\ELANEnd 00:06:24.522
+\ELANParticipant bv
+
+\ref bv_cs_nihenatuna_065
+
+\mt i gagana i vilu ga vataha
+\ma 
+\mb 
+\gl 
+\ps 
+
+\ft 
+\nt 
+
+\arg 
+\bwo 
+\vo 
+\pt woman ia hem go hem go pas
+\ELANBegin 00:06:24.522
+\ELANEnd 00:06:27.422
+\ELANParticipant bv
+
+\ref bv_cs_nihenatuna_066
+
+\mt tiong i gaganama / ah /
+\ma 
+\mb 
+\gl 
+\ps 
+
+\ft 
+\nt 
+
+\arg 
+\bwo 
+\vo 
+\pt man ia kam
+\ELANBegin 00:06:27.470
+\ELANEnd 00:06:33.264
+\ELANParticipant bv
+
+\ref bv_cs_nihenatuna_067
+
+\mt angena tai i ua ga tau'i'i
+\ma 
+\mb 
+\gl 
+\ps 
+
+\ft 
+\nt 
+
+\arg 
+\bwo 
+\vo 
+\pt taem pikinini ia krae,
+\ELANBegin 00:06:33.264
+\ELANEnd 00:06:35.907
+\ELANParticipant bv
+
+\ref bv_cs_nihenatuna_068
+
+\mt lao i munamuna ga ava / i munamuna i genugenu ga / ah / lo'elo'e
+\ma 
+\mb 
+\gl 
+\ps 
+
+\ft 
+\nt 
+
+\arg 
+\bwo 
+\vo 
+\pt bush ia hem seksek, den ota lif ia tu seksek
+\ELANBegin 00:06:35.907
+\ELANEnd 00:06:42.670
+\ELANParticipant bv
+
+\ref bv_cs_nihenatuna_069
+
+\mt i 'ela ga nihe / i 'ela
+\ma 
+\mb 
+\gl 
+\ps 
+
+\ft 
+\nt 
+
+\arg 
+\bwo 
+\vo 
+\pt hem sing na snek, hem sing
+\ELANBegin 00:06:42.670
+\ELANEnd 00:06:47.483
+\ELANParticipant bv
+
+\ref bv_cs_nihenatuna_070
+
+\mt i ua kiaoe kong'o ati kuriauma kurikikiauma kiaoe kong'o i ua
+\ma 
+\mb 
+\gl 
+\ps 
+
+\ft 
+\nt 
+
+\arg 
+\bwo 
+\vo 
+\pt hem se [...] hem se
+\ELANBegin 00:06:47.483
+\ELANEnd 00:06:57.678
+\ELANParticipant bv
+
+\ref bv_cs_nihenatuna_071
+
+\mt so manana i ua ga tiong e mange ahana 'oisana ga hai noni 'ita / i ua
+\ma 
+\mb 
+\gl 
+\ps 
+
+\ft 
+\nt 
+
+\arg 
+\bwo 
+\vo 
+\pt den hem se nao man ia, mae karange vois blo wat na mi herem ia, hem se
+\ELANBegin 00:06:57.678
+\ELANEnd 00:07:04.757
+\ELANParticipant bv
+
+\ref bv_cs_nihenatuna_072
+
+\mt i gagana hana roroi i ua
+\ma 
+\mb 
+\gl 
+\ps 
+
+\ft 
+\nt 
+
+\arg 
+\bwo 
+\vo 
+\pt hem go, hem se fo luk go
+\ELANBegin 00:07:04.757
+\ELANEnd 00:07:07.606
+\ELANParticipant bv
+
+\ref bv_cs_nihenatuna_073
+
+\mt nihe kanegana hamako
+\ma 
+\mb 
+\gl 
+\ps 
+
+\ft 
+\nt 
+
+\arg 
+\bwo 
+\vo 
+\pt snek ia barava bigwan
+\ELANBegin 00:07:07.606
+\ELANEnd 00:07:10.145
+\ELANParticipant bv
+
+\ref bv_cs_nihenatuna_074
+
+\mt nihe kanegana hamako i gagana i aketi ga natuna i hati
+\ma 
+\mb 
+\gl 
+\ps 
+
+\ft 
+\nt 
+
+\arg 
+\bwo 
+\vo 
+\pt snek ia barava big wan, hem go hem karim pikinini blo hem, hem aotim
+\ELANBegin 00:07:10.145
+\ELANEnd 00:07:16.428
+\ELANParticipant bv
+
+\ref bv_cs_nihenatuna_075
+
+\mt i nkoti ga sana naehe i lapu
+\ma 
+\mb 
+\gl 
+\ps 
+
+\ft 
+\nt 
+
+\arg 
+\bwo 
+\vo 
+\pt hem holem naef blo hem hem kilim
+\ELANBegin 00:07:16.428
+\ELANEnd 00:07:19.781
+\ELANParticipant bv
+
+\ref bv_cs_nihenatuna_076
+
+\mt i lapulapu i hamate i kokoputi / ga nihe
+\ma 
+\mb 
+\gl 
+\ps 
+
+\ft 
+\nt 
+
+\arg 
+\bwo 
+\vo 
+\pt hem kikilim hem kilim dae, hem kakatem noa snek ia
+\ELANBegin 00:07:19.781
+\ELANEnd 00:07:24.327
+\ELANParticipant bv
+
+\ref bv_cs_nihenatuna_077
+
+\mt lahilahina i lehema ga sana magota
+\ma 
+\mb 
+\gl 
+\ps 
+
+\ft 
+\nt 
+
+\arg 
+\bwo 
+\vo 
+\pt lo evening waef blo hem kam baek
+\ELANBegin 00:07:24.327
+\ELANEnd 00:07:28.062
+\ELANParticipant bv
+
+\ref bv_cs_nihenatuna_078
+
+\mt i gaganama natuna 'ae'aina nka i ua 'ae'aina
+\ma 
+\mb 
+\gl 
+\ps 
+
+\ft 
+\nt 
+
+\arg 
+\bwo 
+\vo 
+\pt hem kam, pikinini blo hem nomoa, hem se mami, but mami blo hem nomoa tu
+\ELANBegin 00:07:28.062
+\ELANEnd 00:07:32.932
+\ELANParticipant bv
+
+\ref bv_cs_nihenatuna_079
+
+\mt i gagana i roroi mate ga nkana
+\ma 
+\mb 
+\gl 
+\ps 
+
+\ft 
+\nt mate (no i):hem stret
+
+\arg 
+\bwo 
+\vo 
+\pt hem go lukim, mami blo hem dae
+\ELANBegin 00:07:32.932
+\ELANEnd 00:07:36.646
+\ELANParticipant bv
+
+\ref bv_cs_nihenatuna_080
+
+\mt koe i tiapaite hamako ga vataha
+\ma 
+\mb 
+\gl 
+\ps 
+
+\ft 
+\nt 
+
+\arg 
+\bwo 
+\vo 
+\pt woman ia barava sooori tumas
+\ELANBegin 00:07:36.646
+\ELANEnd 00:07:40.117
+\ELANParticipant bv
+
+\ref bv_cs_nihenatuna_081
+
+\mt i tiapaite hamako i lehe hamata'ang
+\ma 
+\mb 
+\gl 
+\ps 
+
+\ft 
+\nt 
+
+\arg 
+\bwo 
+\vo 
+\pt hem sore tumas, hem go baek lo ples
+\ELANBegin 00:07:40.117
+\ELANEnd 00:07:44.537
+\ELANParticipant bv
+
+\ref bv_cs_nihenatuna_082
+
+\mt i i  s- i s- i ing sana kanega oe maito osong sou'ana tau'i'i ona mera nao haehae'oa 
+\ma 
+\mb 
+\gl 
+\ps 
+
+\ft 
+\nt 
+
+\arg 
+\bwo 
+\vo 
+\pt husband blo hem se lo hem hui iu evri taem iu tekem go pikinini ia iu save go livim 
+\ELANBegin 00:07:44.537
+\ELANEnd 00:07:54.484
+\ELANParticipant bv
+
+\mt sang i ing
+\pt lo dea, hem se lo hem
+
+\ref bv_cs_nihenatuna_083
+
+\mt i ua ga sana vataha o so maha inaha sang vataha natuna 'ae'ai maha nkagu nihe
+\ma 
+\mb 
+\gl 
+\ps 
+
+\ft 
+\nt 
+
+\arg 
+\bwo 
+\vo 
+\pt waef blo hem se 'ya iu se lo mi, pikinini blo woman ia, nomoa, mi mami blo mi snek ia
+\ELANBegin 00:07:54.484
+\ELANEnd 00:08:04.365
+\ELANParticipant bv
+
+\ref bv_cs_nihenatuna_084
+
+\mt nkagu nihe ena'aua natugu hana mera naina hahae'oa sagu / i ing
+\ma 
+\mb 
+\gl 
+\ps 
+
+\ft 
+\nt 
+
+\arg 
+\bwo 
+\vo 
+\pt mami blo mi snek, olsem nao mi save tekem go livim nao pikinini blo mi lo dea, hem se 
+\ELANBegin 00:08:04.365
+\ELANEnd 00:08:10.893
+\ELANParticipant bv
+
+\pt lo hem
+
+\ref bv_cs_nihenatuna_085
+
+\mt so oi mole ga oi lapu  halu'u sana / i ing
+\ma 
+\mb 
+\gl 
+\ps 
+
+\ft 
+\nt 
+
+\arg 
+\bwo 
+\vo 
+\pt iu spoelem na iu kilim, hem se lo hem
+\ELANBegin 00:08:10.893
+\ELANEnd 00:08:16.707
+\ELANParticipant bv
+
+\ref bv_cs_nihenatuna_086
+
+\mt oi mole oi lapu ga nkagu / i ing
+\ma 
+\mb 
+\gl 
+\ps 
+
+\ft 
+\nt 
+
+\arg 
+\bwo 
+\vo 
+\pt iu spoelem iu kilim mami blo mi, hem se lo hem
+\ELANBegin 00:08:25.183
+\ELANEnd 00:08:29.510
+\ELANParticipant bv
+
+\ref bv_cs_nihenatuna_087
+
+\mt maha abu tiong natuna / nihe natuna gaha i ua ga vataha
+\ma 
+\mb 
+\gl 
+\ps 
+
+\ft 
+\nt 
+
+\arg 
+\bwo 
+\vo 
+\pt mi no pikinini blo man, mi pikinini blo snek ia, hem se nao woman ia
+\ELANBegin 00:08:29.510
+\ELANEnd 00:08:35.388
+\ELANParticipant bv
+
+\ref bv_cs_nihenatuna_088
+
+\mt nnaina i soku ga sagu lagalagala
+\ma 
+\mb 
+\gl 
+\ps 
+
+\ft 
+\nt 
+
+\arg 
+\bwo 
+\vo 
+\pt lo dea na stori blo mi hem end
+\ELANBegin 00:08:35.388
+\ELANEnd 00:08:38.622
+\ELANParticipant bv
+
+
+\ELANMediaURL file:///C:/Users/c3199746/mte/fieldwork/Audio/ELANed/bv_cs_nihenatuna.wav
+\ELANMediaMIME audio/x-wav

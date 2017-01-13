@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ANNOTATION_DOCUMENT AUTHOR="" DATE="2017-01-12T21:34:07+10:00" FORMAT="2.8" VERSION="2.8" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.mpi.nl/tools/elan/EAFv2.8.xsd">
+    <HEADER MEDIA_FILE="" TIME_UNITS="milliseconds">
+        <MEDIA_DESCRIPTOR MEDIA_URL="file:///C:/Users/c3199746/mte/fieldwork/Audio/ELANed/mi_duact_nachtrag.wav" MIME_TYPE="audio/x-wav" RELATIVE_MEDIA_URL="../../../fieldwork/Audio/ELANed/mi_duact_nachtrag.wav"/>
+        <PROPERTY NAME="URN">urn:nl-mpi-tools-elan-eaf:f75357d5-7aa2-471c-b2bc-89cb3fd0ceba</PROPERTY>
+        <PROPERTY NAME="lastUsedAnnotationId">14</PROPERTY>
+    </HEADER>
+    <TIME_ORDER>
+        <TIME_SLOT TIME_SLOT_ID="ts1" TIME_VALUE="0"/>
+        <TIME_SLOT TIME_SLOT_ID="ts2" TIME_VALUE="2049"/>
+        <TIME_SLOT TIME_SLOT_ID="ts3" TIME_VALUE="2049"/>
+        <TIME_SLOT TIME_SLOT_ID="ts4" TIME_VALUE="6734"/>
+        <TIME_SLOT TIME_SLOT_ID="ts5" TIME_VALUE="6734"/>
+        <TIME_SLOT TIME_SLOT_ID="ts6" TIME_VALUE="11194"/>
+        <TIME_SLOT TIME_SLOT_ID="ts7" TIME_VALUE="11194"/>
+        <TIME_SLOT TIME_SLOT_ID="ts8" TIME_VALUE="14555"/>
+        <TIME_SLOT TIME_SLOT_ID="ts9" TIME_VALUE="14555"/>
+        <TIME_SLOT TIME_SLOT_ID="ts10" TIME_VALUE="17031"/>
+        <TIME_SLOT TIME_SLOT_ID="ts11" TIME_VALUE="17031"/>
+        <TIME_SLOT TIME_SLOT_ID="ts12" TIME_VALUE="19786"/>
+    </TIME_ORDER>
+    <TIER DEFAULT_LOCALE="us" LINGUISTIC_TYPE_REF="ref" PARTICIPANT="unknown" TIER_ID="ref@unknown">
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a1" TIME_SLOT_REF1="ts1" TIME_SLOT_REF2="ts2">
+                <ANNOTATION_VALUE>superaleix_testapostrophe_000</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+    </TIER>
+    <TIER DEFAULT_LOCALE="us" LINGUISTIC_TYPE_REF="ref" PARTICIPANT="scm" TIER_ID="ref@scm">
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a2" TIME_SLOT_REF1="ts3" TIME_SLOT_REF2="ts4">
+                <ANNOTATION_VALUE>superaleix_testapostrophe_001</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a3" TIME_SLOT_REF1="ts9" TIME_SLOT_REF2="ts10">
+                <ANNOTATION_VALUE>superaleix_testapostrophe_004</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+    </TIER>
+    <TIER DEFAULT_LOCALE="en" LINGUISTIC_TYPE_REF="ref" PARTICIPANT="am" TIER_ID="ref@am">
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a4" TIME_SLOT_REF1="ts5" TIME_SLOT_REF2="ts6">
+                <ANNOTATION_VALUE>superaleix_testapostrophe_002</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a5" TIME_SLOT_REF1="ts7" TIME_SLOT_REF2="ts8">
+                <ANNOTATION_VALUE>superaleix_testapostrophe_003</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a6" TIME_SLOT_REF1="ts11" TIME_SLOT_REF2="ts12">
+                <ANNOTATION_VALUE>superaleix_testapostrophe_005</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+    </TIER>
+    <TIER DEFAULT_LOCALE="en" LINGUISTIC_TYPE_REF="ref" PARTICIPANT="ug" TIER_ID="ref@ug"/>
+    <TIER DEFAULT_LOCALE="us" LINGUISTIC_TYPE_REF="nt" PARENT_REF="ref@unknown" PARTICIPANT="unknown" TIER_ID="nt@unknown"/>
+    <TIER DEFAULT_LOCALE="us" LINGUISTIC_TYPE_REF="mt" PARENT_REF="ref@scm" PARTICIPANT="scm" TIER_ID="mt@scm">
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a8" ANNOTATION_REF="a2">
+                <ANNOTATION_VALUE>so saria / saria kanegana</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a9" ANNOTATION_REF="a3">
+                <ANNOTATION_VALUE>ena ena areai iva amang tu'u</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+    </TIER>
+    <TIER DEFAULT_LOCALE="us" LINGUISTIC_TYPE_REF="ma" PARENT_REF="ref@scm" PARTICIPANT="scm" TIER_ID="ma@scm"/>
+    <TIER DEFAULT_LOCALE="us" LINGUISTIC_TYPE_REF="ft" PARENT_REF="ref@scm" PARTICIPANT="scm" TIER_ID="ft@scm"/>
+    <TIER DEFAULT_LOCALE="us" LINGUISTIC_TYPE_REF="nt" PARENT_REF="ref@scm" PARTICIPANT="scm" TIER_ID="nt@scm">
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a13" ANNOTATION_REF="a2">
+                <ANNOTATION_VALUE>NMLZ for stative</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a14" ANNOTATION_REF="a3">
+                <ANNOTATION_VALUE>FUT w/ tu'u</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+    </TIER>
+    <TIER DEFAULT_LOCALE="en" LINGUISTIC_TYPE_REF="pt" PARENT_REF="ref@scm" PARTICIPANT="scm" TIER_ID="pt@scm"/>
+    <TIER DEFAULT_LOCALE="en" LINGUISTIC_TYPE_REF="mt" PARENT_REF="ref@am" PARTICIPANT="am" TIER_ID="mt@am">
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a10" ANNOTATION_REF="a4">
+                <ANNOTATION_VALUE>'ati ona hangnatoi / o</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a11" ANNOTATION_REF="a5">
+                <ANNOTATION_VALUE>ona hae'o 'ota</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a12" ANNOTATION_REF="a6">
+                <ANNOTATION_VALUE>iri isakanegana</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+    </TIER>
+    <TIER DEFAULT_LOCALE="en" LINGUISTIC_TYPE_REF="ma" PARENT_REF="ref@am" PARTICIPANT="am" TIER_ID="ma@am"/>
+    <TIER DEFAULT_LOCALE="en" LINGUISTIC_TYPE_REF="ft" PARENT_REF="ref@am" PARTICIPANT="am" TIER_ID="ft@am"/>
+    <TIER DEFAULT_LOCALE="en" LINGUISTIC_TYPE_REF="arg" PARENT_REF="ref@am" PARTICIPANT="am" TIER_ID="arg@am"/>
+    <TIER DEFAULT_LOCALE="en" LINGUISTIC_TYPE_REF="nt" PARENT_REF="ref@am" PARTICIPANT="am" TIER_ID="nt@am"/>
+    <TIER DEFAULT_LOCALE="en" LINGUISTIC_TYPE_REF="vo" PARENT_REF="ref@am" PARTICIPANT="am" TIER_ID="vo@am"/>
+    <TIER DEFAULT_LOCALE="en" LINGUISTIC_TYPE_REF="pt" PARENT_REF="ref@am" PARTICIPANT="am" TIER_ID="pt@am"/>
+    <TIER DEFAULT_LOCALE="en" LINGUISTIC_TYPE_REF="bwo" PARENT_REF="ref@am" PARTICIPANT="am" TIER_ID="bwo@am"/>
+    <TIER DEFAULT_LOCALE="en" LINGUISTIC_TYPE_REF="mt" PARENT_REF="ref@ug" PARTICIPANT="ug" TIER_ID="mt@ug"/>
+    <TIER DEFAULT_LOCALE="en" LINGUISTIC_TYPE_REF="ma" PARENT_REF="ref@ug" PARTICIPANT="ug" TIER_ID="ma@ug"/>
+    <TIER DEFAULT_LOCALE="en" LINGUISTIC_TYPE_REF="ft" PARENT_REF="ref@ug" PARTICIPANT="ug" TIER_ID="ft@ug"/>
+    <TIER DEFAULT_LOCALE="en" LINGUISTIC_TYPE_REF="arg" PARENT_REF="ref@ug" PARTICIPANT="ug" TIER_ID="arg@ug"/>
+    <TIER DEFAULT_LOCALE="en" LINGUISTIC_TYPE_REF="nt" PARENT_REF="ref@ug" PARTICIPANT="ug" TIER_ID="nt@ug"/>
+    <TIER DEFAULT_LOCALE="en" LINGUISTIC_TYPE_REF="vo" PARENT_REF="ref@ug" PARTICIPANT="ug" TIER_ID="vo@ug"/>
+    <TIER DEFAULT_LOCALE="en" LINGUISTIC_TYPE_REF="pt" PARENT_REF="ref@ug" PARTICIPANT="ug" TIER_ID="pt@ug"/>
+    <TIER DEFAULT_LOCALE="en" LINGUISTIC_TYPE_REF="bwo" PARENT_REF="ref@ug" PARTICIPANT="ug" TIER_ID="bwo@ug"/>
+    <TIER DEFAULT_LOCALE="us" LINGUISTIC_TYPE_REF="mb" PARENT_REF="ma@scm" PARTICIPANT="scm" TIER_ID="mb@scm"/>
+    <TIER DEFAULT_LOCALE="en" LINGUISTIC_TYPE_REF="mb" PARENT_REF="ma@am" PARTICIPANT="am" TIER_ID="mb@am"/>
+    <TIER DEFAULT_LOCALE="en" LINGUISTIC_TYPE_REF="mb" PARENT_REF="ma@ug" PARTICIPANT="ug" TIER_ID="mb@ug"/>
+    <TIER DEFAULT_LOCALE="us" LINGUISTIC_TYPE_REF="gl" PARENT_REF="mb@scm" PARTICIPANT="scm" TIER_ID="gl@scm"/>
+    <TIER DEFAULT_LOCALE="us" LINGUISTIC_TYPE_REF="ps" PARENT_REF="mb@scm" PARTICIPANT="scm" TIER_ID="ps@scm"/>
+    <TIER DEFAULT_LOCALE="en" LINGUISTIC_TYPE_REF="gl" PARENT_REF="mb@am" PARTICIPANT="am" TIER_ID="gl@am"/>
+    <TIER DEFAULT_LOCALE="en" LINGUISTIC_TYPE_REF="ps" PARENT_REF="mb@am" PARTICIPANT="am" TIER_ID="ps@am"/>
+    <TIER DEFAULT_LOCALE="en" LINGUISTIC_TYPE_REF="gl" PARENT_REF="mb@ug" PARTICIPANT="ug" TIER_ID="gl@ug"/>
+    <TIER DEFAULT_LOCALE="en" LINGUISTIC_TYPE_REF="ps" PARENT_REF="mb@ug" PARTICIPANT="ug" TIER_ID="ps@ug"/>
+    <LINGUISTIC_TYPE GRAPHIC_REFERENCES="false" LINGUISTIC_TYPE_ID="ref" TIME_ALIGNABLE="true"/>
+    <LINGUISTIC_TYPE CONSTRAINTS="Symbolic_Association" GRAPHIC_REFERENCES="false" LINGUISTIC_TYPE_ID="mt" TIME_ALIGNABLE="false"/>
+    <LINGUISTIC_TYPE CONSTRAINTS="Symbolic_Subdivision" GRAPHIC_REFERENCES="false" LINGUISTIC_TYPE_ID="ma" TIME_ALIGNABLE="false"/>
+    <LINGUISTIC_TYPE CONSTRAINTS="Symbolic_Subdivision" GRAPHIC_REFERENCES="false" LINGUISTIC_TYPE_ID="mb" TIME_ALIGNABLE="false"/>
+    <LINGUISTIC_TYPE CONSTRAINTS="Symbolic_Association" GRAPHIC_REFERENCES="false" LINGUISTIC_TYPE_ID="gl" TIME_ALIGNABLE="false"/>
+    <LINGUISTIC_TYPE CONSTRAINTS="Symbolic_Association" GRAPHIC_REFERENCES="false" LINGUISTIC_TYPE_ID="ps" TIME_ALIGNABLE="false"/>
+    <LINGUISTIC_TYPE CONSTRAINTS="Symbolic_Association" GRAPHIC_REFERENCES="false" LINGUISTIC_TYPE_ID="ft" TIME_ALIGNABLE="false"/>
+    <LINGUISTIC_TYPE CONSTRAINTS="Symbolic_Association" GRAPHIC_REFERENCES="false" LINGUISTIC_TYPE_ID="arg" TIME_ALIGNABLE="false"/>
+    <LINGUISTIC_TYPE CONSTRAINTS="Symbolic_Association" GRAPHIC_REFERENCES="false" LINGUISTIC_TYPE_ID="nt" TIME_ALIGNABLE="false"/>
+    <LINGUISTIC_TYPE CONSTRAINTS="Symbolic_Association" GRAPHIC_REFERENCES="false" LINGUISTIC_TYPE_ID="bwo" TIME_ALIGNABLE="false"/>
+    <LINGUISTIC_TYPE CONSTRAINTS="Symbolic_Association" GRAPHIC_REFERENCES="false" LINGUISTIC_TYPE_ID="vo" TIME_ALIGNABLE="false"/>
+    <LINGUISTIC_TYPE CONSTRAINTS="Symbolic_Association" GRAPHIC_REFERENCES="false" LINGUISTIC_TYPE_ID="pt" TIME_ALIGNABLE="false"/>
+    <LOCALE COUNTRY_CODE="EN" LANGUAGE_CODE="us"/>
+    <LOCALE COUNTRY_CODE="US" LANGUAGE_CODE="en"/>
+    <CONSTRAINT DESCRIPTION="Time subdivision of parent annotation's time interval, no time gaps allowed within this interval" STEREOTYPE="Time_Subdivision"/>
+    <CONSTRAINT DESCRIPTION="Symbolic subdivision of a parent annotation. Annotations refering to the same parent are ordered" STEREOTYPE="Symbolic_Subdivision"/>
+    <CONSTRAINT DESCRIPTION="1-1 association with a parent annotation" STEREOTYPE="Symbolic_Association"/>
+    <CONSTRAINT DESCRIPTION="Time alignable annotations within the parent annotation's time interval, gaps are allowed" STEREOTYPE="Included_In"/>
+</ANNOTATION_DOCUMENT>

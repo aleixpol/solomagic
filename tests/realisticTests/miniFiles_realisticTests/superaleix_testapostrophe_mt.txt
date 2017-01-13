@@ -1,0 +1,127 @@
+\_sh v3.0  400  Mytext
+\_DateStampHasFourDigitYear
+
+
+\ref superaleix_testapostrophe_000
+
+\mt 
+\ma 
+\mb 
+\gl 
+\ps 
+
+\nt 
+\ft 
+
+\arg 
+\vo 
+\pt 
+\bwo 
+
+\ELANBegin 00:00:00.000
+\ELANEnd 00:00:02.049
+\ELANParticipant unknown
+
+\ref superaleix_testapostrophe_001
+
+\mt so saria / saria kanegana
+\ma 
+\mb 
+\gl 
+\ps 
+
+\nt NMLZ for stative
+\ft 
+
+\arg 
+\vo 
+\pt 
+\bwo 
+
+\ELANBegin 00:00:02.049
+\ELANEnd 00:00:06.734
+\ELANParticipant scm
+
+\ref superaleix_testapostrophe_002
+
+\mt 'ati ona hangnatoi / o
+\ma 
+\mb 
+\gl 
+\ps 
+
+\nt 
+\ft 
+
+\arg 
+\vo 
+\pt 
+\bwo 
+
+\ELANBegin 00:00:06.734
+\ELANEnd 00:00:11.194
+\ELANParticipant am
+
+\ref superaleix_testapostrophe_003
+
+\mt ona hae'o 'ota
+\ma 
+\mb 
+\gl 
+\ps 
+
+\nt 
+\ft 
+
+\arg 
+\vo 
+\pt 
+\bwo 
+
+\ELANBegin 00:00:11.194
+\ELANEnd 00:00:14.555
+\ELANParticipant am
+
+\ref superaleix_testapostrophe_004
+
+\mt ena ena areai iva amang tu'u
+\ma 
+\mb 
+\gl 
+\ps 
+
+\nt FUT w/ tu'u
+\ft 
+
+\arg 
+\vo 
+\pt 
+\bwo 
+
+\ELANBegin 00:00:14.555
+\ELANEnd 00:00:17.031
+\ELANParticipant scm
+
+\ref superaleix_testapostrophe_005
+
+\mt iri isakanegana
+\ma 
+\mb 
+\gl 
+\ps 
+
+\nt 
+\ft 
+
+\arg 
+\vo 
+\pt 
+\bwo 
+
+\ELANBegin 00:00:17.031
+\ELANEnd 00:00:19.786
+\ELANParticipant am
+
+
+\ELANMediaURL file:///C:/Users/c3199746/mte/fieldwork/Audio/ELANed/mi_duact_nachtrag.wav
+\ELANMediaMIME audio/x-wav
