@@ -1,0 +1,125 @@
+\_sh v3.0  400  Mytext
+
+\ref superaleix_testivena_apostrophe_000
+
+\mt
+\ma
+\mb
+\gl
+\ps 
+
+\nt
+\ft 
+
+\arg
+\vo
+\pt
+\bwo 
+
+\ELANBegin 00:00:00.000
+\ELANEnd 00:00:02.049
+\ELANParticipant unknown
+
+\ref superaleix_textivena_apostrophe_001
+
+\mt so saria / saria kanegana
+\ma so    saria           saria           kanegana
+\mb so    sa    -ria      sa    -ria      kanega -na
+\gl CAUSE POSS- -3PL.POSS POSS- -3PL.POSS be.big -NMLZ
+\ps comp  poss- -psuf     poss- -psuf     v      -vsuf
+
+\nt
+\ft 
+
+\arg
+\vo
+\pt
+\bwo 
+
+\ELANBegin 00:00:02.049
+\ELANEnd 00:00:06.734
+\ELANParticipant scm
+
+\ref superaleix_textivena_apostrophe_002
+
+\mt 'ati ona hangnatoi / o
+\ma 'ati ona             hangnatoi               o
+\mb 'ati o       -na     hang-  nato       -i    o
+\gl PROH 2SG.S-  -IRR    RECP-  be.enough? -TR   yes
+\ps pa   vspref- -vxpref vpref- v          -vsuf excl
+
+\nt PROH; ati/'ati?
+\ft 
+
+\arg
+\vo
+\pt
+\bwo 
+
+\ELANBegin 00:00:06.734
+\ELANEnd 00:00:11.194
+\ELANParticipant am
+
+\ref superaleix_textivena_apostrophe_003
+
+\mt ivena hae'o 'ota
+\ma iva  ena             hae'o xta
+\mb iva  e       -na     hae'o xta
+\gl FUT  3SG.S-  -IRR    put   PRS
+\ps adv? vspref- -vxpref v     pa
+
+\nt
+\ft 
+
+\arg
+\vo
+\pt
+\bwo 
+
+\ELANBegin 00:00:11.194
+\ELANEnd 00:00:14.555
+\ELANParticipant am
+
+\ref superaleix_textivena_apostrophe_004
+
+\mt ena'a ivena areai iva amang tu'u
+\ma ena'a iva  ena             areai iva  amang          tu'u
+\mb ena'a iva  e       -na     areai iva  amang          tu'u
+\gl DEM   FUT  3SG.S-  -IRR    speak FUT  1PL.EXCL.S.IRR utter
+\ps dem   adv? vspref- -vxpref v     adv? vspref         v
+
+\nt DEM as pre-V O
+\ft 
+
+\arg
+\vo
+\pt
+\bwo 
+
+\ELANBegin 00:00:14.555
+\ELANEnd 00:00:17.031
+\ELANParticipant scm
+
+\ref superaleix_textivena_apostrophe_005
+
+\mt iri isakanegana
+\ma iri             isakanegana
+\mb ir      -i      isa-   kanega -na
+\gl 3PL.S-  -REAL   DUACT- be.big -NMLZ
+\ps vspref- -vxpref vpref- v      -vsuf
+
+\nt
+\ft 
+
+\arg
+\vo
+\pt
+\bwo 
+
+\ELANBegin 00:00:17.031
+\ELANEnd 00:00:19.786
+\ELANParticipant am
+
+
+\ELANMediaURL file:///C:/Users/c3199746/mte/fieldwork/Audio/ELANed/mi_duact_nachtrag.wav
+\ELANMediaMIME audio/x-wav
