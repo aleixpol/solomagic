@@ -1,0 +1,25 @@
+
+
+ "IvenaToIvaEna": lambda record: createMa(record, lambda tier: ("iva ena" if word=="ivena" else word for word in tier)),
+ "IvonaToIvaOna": lambda record: createMa(record, lambda tier: ("iva ona" if word=="ivona" else word for word in tier)),
+ "IvamangToIvaAmang": lambda record: createMa(record, lambda tier: ("iva amang" if word=="ivamang" else word for word in tier)),
+ "IvamaToIvaAmang": lambda record: createMa(record, lambda tier: ("iva amang" if word=="ivama" else word for word in tier)),
+ "IvemiaToIvaEmia": lambda record: createMa(record, lambda tier: ("iva emia" if word=="ivemia" else word for word in tier)),
+ "IveriaToIvaEria": lambda record: createMa(record, lambda tier: ("iva eria" if word=="iveria" else word for word in tier)),
+ "IvavonaToIvaAbuOna": lambda record: createMa(record, lambda tier: ("iva abu ona" if word=="ivavona" else word for word in tier)),
+ "IvavenaToIvaAbuEna": lambda record: createMa(record, lambda tier: ("iva abu ena" if word=="ivavena" else word for word in tier)),
+ "IvavamangToIvaAbuAmang": lambda record: createMa(record, lambda tier: ("iva abu amang" if word=="ivavamang" else word for word in tier)),
+ "IvavamaToIvaAbuAmang": lambda record: createMa(record, lambda tier: ("iva abu amang" if word=="ivavama" else word for word in tier)),
+ "IvavemiaToIvaAbuEmia": lambda record: createMa(record, lambda tier: ("iva abu emia" if word=="ivavemia" else word for word in tier)), 
+ "IvaveriaToIvaAbuEria": lambda record: createMa(record, lambda tier: ("iva abu eria" if word=="ivaveria" else word for word in tier)),
+
+ 
+ "AvonaToAbuOna": lambda record: createMa(record, lambda tier: ("abu ona" if word=="avona" else word for word in tier)),
+ "AvenaToAbuEna": lambda record: createMa(record, lambda tier: ("abu ena" if word=="avena" else word for word in tier)),
+ "AvamaToAbuAmang": lambda record: createMa(record, lambda tier: ("abu amang" if word=="avama" else word for word in tier)), 
+ "AvamangToAbuAmang": lambda record: createMa(record, lambda tier: ("abu amang" if word=="avamang" else word for word in tier)),
+ "AvemiaToAbuEmia": lambda record: createMa(record, lambda tier: ("abu emia" if word=="avemia" else word for word in tier)),
+ "AveriaToAbuEria": lambda record: createMa(record, lambda tier: ("abu eria" if word=="averia" else word for word in tier)),
+
+
+ 
