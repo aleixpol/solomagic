@@ -15,6 +15,8 @@ class TestIO(unittest.TestCase):
     def test_invariant(self):
         self.assertEqual(callTest("tests/a.text.in"), 0)
         self.assertEqual(callTest("tests/b.text.in"), 0)
+        self.assertEqual(callTest("tests/ivaena.text.in"), 0)
+
 
     def test_process(self):
         self.assertEqual(callTest("tests/a.text.in", "tests/a.text.out", ["QToApostrophe"]), 0)

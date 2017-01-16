@@ -3,29 +3,29 @@
 import argparse
 
 class Block:
-    tiers = []
-
-    def __init__(self, tiers = []):
-        self.tiers = tiers
+    def __init__(self, t = []):
+        self.tiers = t
 
     def getTier(self, name):
         for v in self.tiers:
             if v[0] == name:
                 return v
-        raise "Scheisse"
+        raise Exception("GetScheisse")
 
     def setTier(self, name, value):
         assert value[0] == name
-        print(self.tiers)
         for idx, v in enumerate(self.tiers):
             if v[0] == name:
                 self.tiers[idx] = value
                 return
-        raise "Scheisse"
+        raise Exception("SetScheisse")
 
     def doPrint(self):
         for tier in self.tiers:
             print(" ".join(tier))
+
+    def __repr__(self):
+        return "Block(%s tiers)" % len(self.tiers)
 
 class FileInstance:
     blocks = []
@@ -34,8 +34,12 @@ class FileInstance:
         self.blocks.append(block)
 
     def doPrint(self):
+        first = True
         for block in self.blocks:
+            if not first:
+                print()
             block.doPrint()
+            first = False
 
 def parse(f):
     currentBlock = Block()
@@ -43,13 +47,16 @@ def parse(f):
 
     for line in f:
         line = line.rstrip()
-        if len(line) == 0:
+        if not line:
+            continue
+        elif line.startswith("\\ref") and currentBlock.tiers:
             ret.addBlock(currentBlock)
-            currentBlock = Block()
-        else:
-            currentBlock.tiers.append(line.split())
+            currentBlock = Block([])
 
-    ret.addBlock(currentBlock)
+        currentBlock.tiers.append(line.split())
+
+    if currentBlock.tiers:
+        ret.addBlock(currentBlock)
     return ret
 
 def specialReplace(word, a, b):
