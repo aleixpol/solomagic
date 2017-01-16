@@ -31,5 +31,7 @@ class TestIO(unittest.TestCase):
     def test_ivaena(self):
         self.assertEqual(callTest("tests/ivaena.text.in", "tests/ivaena.text.out", ["IvenaToIvaEna"]), 0)
 
+        self.assertEqual(callTest("tests/testivena_mt.txt", "tests/testivena_ma.txt", ["createMa", "IvenaToIvaEna"]), 0)
+
 if __name__ == '__main__':
     unittest.main()

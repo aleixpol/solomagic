@@ -11,7 +11,7 @@ class Record:
         for v in self.tiers:
             if v[0] == name:
                 return v
-        raise Exception("GetScheisse")
+        return None
 
     def setTier(self, name, value):
         assert value[0] == name
@@ -78,6 +78,8 @@ def specialReplace(word, a, b):
 
 def createMa(record, function = None):
     mtTier = record.getTier("\\mt")
+    if not mtTier:
+        return record
     maTier = ["\\ma"] + [word for word in mtTier[1:] if word != '/']
     if function:
         maTier = function(maTier)
