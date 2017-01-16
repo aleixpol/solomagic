@@ -68,7 +68,7 @@ def createMa(block, function = None):
 
 blockOperations = {
     "QToApostrophe": lambda block: Block([ [specialReplace(word, "q", "'") for word in tier ] for tier in block.tiers]),
-    "ApostropheToQ": lambda block: Block([ [specialReplace(word, "'", "q") for word in tier ] for tier in block.tiers]),
+    "ApostropheToQ": lambda block: Block([ [word.replace("'", "q") for word in tier ] for tier in block.tiers]),
     "IvenaToIvaEna": lambda block: createMa(block, lambda tier: (word.replace("ivena", "iva ena") for word in tier)),
     "createMa": createMa
 }
