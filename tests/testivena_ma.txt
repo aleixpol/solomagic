@@ -21,7 +21,6 @@
 \ELANEnd 00:00:02.049
 \ELANParticipant unknown
 \ma
-\ma
 
 \ref superaleix_testivena_001
 
@@ -43,7 +42,6 @@
 \ELANEnd 00:00:06.734
 \ELANParticipant scm
 \ma so saria saria kanegana
-\ma so saria saria kanegana
 
 \ref superaleix_testivena_002
 
@@ -64,7 +62,6 @@
 \ELANBegin 00:00:06.734
 \ELANEnd 00:00:11.194
 \ELANParticipant am
-\ma ivena hangnatoi o
 \ma iva ena hangnatoi o
 
 \ref superaleix_testivena_003
@@ -87,7 +84,6 @@
 \ELANEnd 00:00:14.555
 \ELANParticipant am
 \ma isakanegana saria kanegana iri isahangnatoi o
-\ma isakanegana saria kanegana iri isahangnatoi o
 
 \ref superaleix_testivena_004
 
@@ -108,7 +104,6 @@
 \ELANBegin 00:00:14.555
 \ELANEnd 00:00:17.031
 \ELANParticipant scm
-\ma ena ena areai ivena tunu
 \ma ena ena areai iva ena tunu
 
 \ref superaleix_testivena_005
@@ -133,5 +128,4 @@
 
 \ELANMediaURL file:///C:/Users/c3199746/mte/fieldwork/Audio/ELANed/mi_duact_nachtrag.wav
 \ELANMediaMIME audio/x-wav
-\ma iri isakanegana
 \ma iri isakanegana
