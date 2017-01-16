@@ -76,7 +76,7 @@ def createMa(record, function = None):
 recordOperations = {
     "QToApostrophe": lambda record: Record([ [specialReplace(word, "q", "'") for word in tier ] for tier in record.tiers]),
     "ApostropheToQ": lambda record: Record([ [word.replace("'", "q") for word in tier ] for tier in record.tiers]),
-    "IvenaToIvaEna": lambda record: createMa(record, lambda tier: (word.replace("ivena", "iva ena") for word in tier)),
+    "IvenaToIvaEna": lambda record: createMa(record, lambda tier: ("iva ena" if word=="ivena" else word for word in tier)),
     "createMa": createMa
 }
 
