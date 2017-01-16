@@ -5,6 +5,7 @@ import argparse
 class Record:
     def __init__(self, t = []):
         self.tiers = t
+        self.emptyLines = []
 
     def getTier(self, name):
         for v in self.tiers:
@@ -21,7 +22,11 @@ class Record:
         raise Exception("SetScheisse")
 
     def doPrint(self):
+        i = 0
         for tier in self.tiers:
+            if i in self.emptyLines:
+                print()
+            i += 1
             print(" ".join(tier))
 
     def __repr__(self):
@@ -45,14 +50,20 @@ def parse(f):
     currentRecord = Record()
     ret = FileInstance()
 
+    i = 0
     for line in f:
         line = line.rstrip()
         if not line:
+            currentRecord.emptyLines.append(i)
             continue
         elif line.startswith("\\ref") and currentRecord.tiers:
+            if currentRecord.emptyLines and currentRecord.emptyLines[-1] == i:
+                currentRecord.emptyLines.pop()
             ret.addRecord(currentRecord)
             currentRecord = Record([])
+            i = 0
 
+        i += 1
         currentRecord.tiers.append(line.split())
 
     if currentRecord.tiers:

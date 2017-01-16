@@ -19,6 +19,10 @@ class TestIO(unittest.TestCase):
         self.assertEqual(callTest("tests/b.text.in"), 0)
         self.assertEqual(callTest("tests/ivaena.text.in"), 0)
 
+        self.assertEqual(callTest("tests/testapostrophe_mt.txt"), 0)
+        self.assertEqual(callTest("tests/testivena_apostrophe_mt.txt"), 0)
+        self.assertEqual(callTest("tests/testivena_mt.txt"), 0)
+        self.assertEqual(callTest("tests/bv_cs_nihenatuna_pt.txt"), 0)
 
     def test_process(self):
         self.assertEqual(callTest("tests/a.text.in", "tests/a.text.out", ["QToApostrophe"]), 0)
