@@ -19,7 +19,7 @@ class Record:
             if v[0] == name:
                 self.tiers[idx] = value
                 return
-        raise Exception("SetScheisse")
+        self.tiers.append(value)
 
     def doPrint(self):
         i = 0
@@ -83,7 +83,7 @@ def createMa(record, function = None):
     maTier = ["\\ma"] + [word for word in mtTier[1:] if word != '/']
     if function:
         maTier = function(maTier)
-    record.tiers.append(maTier)
+    record.setTier("\\ma", list(maTier))
     return record
 
 recordOperations = {
