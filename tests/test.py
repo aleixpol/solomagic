@@ -26,8 +26,8 @@ class TestIO(unittest.TestCase):
         self.assertEqual(callTest("bv_cs_nihenatuna_pt.txt"), 0)
 
     def test_process(self):
-        self.assertEqual(callTest("a.text.in", "a.text.out", ["QToApostrophe"]), 0)
-        self.assertEqual(callTest("b.text.in", "b.text.out", ["createMa", "QToApostrophe"]), 0)
+        self.assertEqual(callTest("a.text.in", "a.text.out", ["ApostropheToQ"]), 0)
+        self.assertEqual(callTest("b.text.in", "b.text.out", ["createMa", "ApostropheToQ"]), 0)
 
     def test_ivaena(self):
         self.assertEqual(callTest("ivaena.text.in", "ivaena.text.out", ["IvenaToIvaEna"]), 0)
