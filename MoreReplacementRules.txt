@@ -1,0 +1,13 @@
+# This should only apply when <XXX> is a full word, so I made it a full-word rule
+# Again: The asterisk is a special character. In case the quotation marks aren't enough
+# I added an alternative rule (line 6) to replace the original one (line 5)
+
+"XtoAsterisk": lambda record: createMa(record, lambda tier: ("*" if word=="XXX" else word for word in tier)),
+# "XtoAsterisk": lambda record: createMa(record, lambda tier: (r"*" if word=="XXX" else word for word in tier)),
+
+# These also need to be full-word rules
+
+"Veampeu": lambda record: createMa(record, lambda tier: ("veangpeu" if word=="veampeu" else word for word in tier)),
+"VaToIva": lambda record: createMa(record, lambda tier: ("iva" if word=="va" else word for word in tier)),
+"SenaToSoEna": lambda record: createMa(record, lambda tier: ("so ena" if word=="sena" else word for word in tier)),
+"SonaToSoOna": lambda record: createMa(record, lambda tier: ("so ona" if word=="sona" else word for word in tier)),
