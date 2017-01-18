@@ -1,0 +1,14 @@
+# These should apply to instances of <(?)> and <:> and <(.)> wherever they appear, so no full-word rules
+
+# I hope that the quotes around <(?)> are enough to make sure it reads it as the actual character sequence
+# Just in case that doesn't work, we can perhaps use the version in the line (8) below the respective line (7)??
+
+# Getting rid of single question marks surrounded by parentheses 
+ "DeleteQM": lambda record: createMa(record, lambda tier: (word.replace("(?)", "") for word in tier)),
+# "DeleteQM": lambda record: createMa(record, lambda tier: (word.replace(r"(?)", "") for word in tier)), 
+
+# Getting rid of all colons
+ "DeleteColon": lambda record: createMa(record, lambda tier: (word.replace(":", "") for word in tier)),
+ 
+# Getting rid of single characters surrounded by parentheses  
+"PhonBrackets": lambda record: createMa(record, lambda tier: re.sub(r"\((.)\)", "", word) for word in tier)),"
