@@ -4,13 +4,21 @@ import subprocess
 def callTest(fileNameInput, fileNameOutput = None, extraarg = []):
     if fileNameOutput == None:
         fileNameOutput = fileNameInput
+
+    command = ["python3", "solomagic.py", "tests/" + fileNameInput] + extraarg
     with open('testfile', 'wb') as f:
-        ret = subprocess.check_call(["python3", "solomagic.py", "tests/" + fileNameInput] + extraarg, stdout=f)
+        ret = subprocess.check_call(command, stdout=f)
         if ret != 0:
             return 1
 
     # I think whitespace changes don't matter
-    return subprocess.check_call(["diff", "-ub", "tests/" + fileNameOutput, "testfile"])
+    ret = 0
+    try:
+        subprocess.check_call(["diff", "-ub", "tests/" + fileNameOutput, "testfile"])
+    except:
+        print("Differences between: '%s' and tests/%s" % (" ".join(command), fileNameOutput))
+        ret = 1
+    return ret
 
 class TestIO(unittest.TestCase):
 
