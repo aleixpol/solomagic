@@ -3,9 +3,12 @@
 import argparse
 
 class Record:
+    tiers = []
+    emptyLines = {}
+
     def __init__(self, t = []):
         self.tiers = t
-        self.emptyLines = []
+        self.emptyLines = {}
 
     def getTier(self, name):
         for v in self.tiers:
@@ -19,15 +22,25 @@ class Record:
             if v[0] == name:
                 self.tiers[idx] = value
                 return
-        self.tiers.append(value)
+        if len(self.tiers) in self.emptyLines:
+            self.emptyLines[len(self.tiers)+1] = self.emptyLines.pop(len(self.tiers))
+        self.addTier(value)
+
+    def addTier(self, tier):
+        self.tiers.append(tier)
 
     def doPrint(self):
         i = 0
         for tier in self.tiers:
-            if i in self.emptyLines:
+            blanklines = self.emptyLines.get(i, 0)
+            for j in range(0, blanklines):
                 print()
             i += 1
             print(" ".join(tier))
+
+        blanklines = self.emptyLines.get(i, 0)
+        for j in range(0, blanklines):
+            print()
 
     def __repr__(self):
         return "Record(%s tiers)" % len(self.tiers)
@@ -41,8 +54,6 @@ class FileInstance:
     def doPrint(self):
         first = True
         for record in self.records:
-            if not first:
-                print()
             record.doPrint()
             first = False
 
@@ -53,18 +64,21 @@ def parse(f):
     i = 0
     for line in f:
         line = line.rstrip()
+        #print("line", line, not line, i, currentRecord.emptyLines)
         if not line:
-            currentRecord.emptyLines.append(i)
+            if not i in currentRecord.emptyLines:
+                currentRecord.emptyLines[i] = 1
+            else:
+                currentRecord.emptyLines[i] += 1
             continue
         elif line.startswith("\\ref") and currentRecord.tiers:
-            if currentRecord.emptyLines and currentRecord.emptyLines[-1] == i:
-                currentRecord.emptyLines.pop()
             ret.addRecord(currentRecord)
+            #print("xxx", currentRecord.emptyLines)
             currentRecord = Record([])
             i = 0
 
         i += 1
-        currentRecord.tiers.append(line.split())
+        currentRecord.addTier(line.split())
 
     if currentRecord.tiers:
         ret.addRecord(currentRecord)
