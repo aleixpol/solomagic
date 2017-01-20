@@ -154,15 +154,18 @@ recordOperations = {
     "clean": Record.clean
 }
 
+def process(inputFile, rules):
+    with open(inputFile, 'r') as f:
+        instance = parse(f)
+        for rule in rules:
+            cosa = [recordOperations[rule](record) for record in instance.records]
+            instance.records = cosa
+        instance.doPrint()
+
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()
     parser.add_argument("input", help="input text file")
     parser.add_argument('rules', metavar='rule', type=str, nargs='*', help='one of these: ' +", ".join(recordOperations.keys()))
     args = parser.parse_args()
 
-    with open(args.input, 'r') as f:
-        instance = parse(f)
-        for rule in args.rules:
-            cosa = [recordOperations[rule](record) for record in instance.records]
-            instance.records = cosa
-        instance.doPrint()
+    process(args.input, args.rules)
