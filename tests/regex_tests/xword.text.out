@@ -1,0 +1,40 @@
+\ref something0
+\ELANParticipant unknown
+
+\mt somethingsomething XXXnonovulu somethingsomething
+\ma somethingsomething * somethingsomething
+\mb
+\gl 
+\ps 
+
+\ft
+\nt
+
+\arg
+\bwo
+\vo
+
+\ELANBegin 00:00:13.510
+\ELANEnd 00:00:15.512
+
+
+
+\ref something1
+\ELANParticipant someone
+
+\mt somethingsomething noXXXnovulu somethingsomething
+\ma somethingsomething noXXXnovulu somethingsomething
+\mb
+\gl 
+\ps 
+
+\ft
+\nt
+
+\arg
+\bwo
+\vo
+
+\ELANBegin 00:00:15.512
+\ELANEnd 00:00:18.515
+
