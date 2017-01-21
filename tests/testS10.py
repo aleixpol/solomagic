@@ -66,7 +66,7 @@ class TestIO(unittest.TestCase):
         self._testDir("xtaApostropheToQ", checks)
         
     def test_regex(self):
-    	checks = ["wordXXX", "XXXword", "wordHyphen"]
+    	checks = ["wordHyphen", "wordXXX", "XXXword"]
     	self._testDir("regex_tests", checks)
 
 if __name__ == '__main__':
