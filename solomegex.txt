@@ -1,0 +1,36 @@
+ 
+ # I hope the rule template is so full-word, that the rules won't apply to things like
+ # <XXXeri> in <XXXeri/iri> nor to <nonovuluXXX> in <nonovuluXXX/onogu>
+ # (Originally I used \s to make sure, but I don't know if that's still necessary? I know \b won't work)
+ # OK, I'll just append a second set for you to choose from :-)
+
+ # - replace all instances of words ending in <XXX> (i.e. <wordXXX>) by <*> 
+ "wordXXX": lambda record: createMa(record, lambda tier: ("*" if re.fullmatch(r"(\w+XXX)", word) else word for word in tier)),
+ 
+ # - replace all instances of words beginning with <XXX> (i.e. <XXXword>)  by <*>
+ "XXXword": lambda record: createMa(record, lambda tier: ("*" if re.fullmatch(r"(XXXw+)", word) else word for word in tier)),
+
+ # - replace all instances of words ending in <-> by <*>
+ # - replace all instances of words beginning with <XXX> and ending in <-> by <*> 
+ "wordHyphen": lambda record: createMa(record, lambda tier: ("*" if re.fullmatch(r"(\w+-)", word) else word for word in tier)),
+ 
+ # Second set with whitespace
+ # - replace all instances of words ending in <XXX> (i.e. <wordXXX>) by <*> 
+ "wordXXX": lambda record: createMa(record, lambda tier: ("*" if re.fullmatch(r"(\s\w+XXX\s)", word) else word for word in tier)),
+ 
+ # - replace all instances of words beginning with <XXX> (i.e. <XXXword>)  by <*>
+ "XXXword": lambda record: createMa(record, lambda tier: ("*" if re.fullmatch(r"(\sXXXw+\s)", word) else word for word in tier)),
+ 
+ # - replace all instances of words ending in <-> by <*>
+ # - replace all instances of words beginning with <XXX> and ending in <-> by <*> 
+ "wordHyphen": lambda record: createMa(record, lambda tier: ("*" if re.fullmatch(r"(\s\w+-\s)", word) else word for word in tier)),
+
+ 
+
+
+
+
+   
+
+
+
