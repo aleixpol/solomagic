@@ -6,7 +6,7 @@ def callTest(fileNameInput, fileNameOutput = None, extraarg = []):
     if fileNameOutput == None:
         fileNameOutput = fileNameInput
 
-    command = ["python3", "solomagic.py", "tests/" + fileNameInput] + extraarg
+    command = ["python3", "solomagic.py", os.path.join("tests", fileNameInput)] + extraarg
     with open('testfile', 'wb') as f:
         ret = subprocess.check_call(command, stdout=f)
         if ret != 0:
@@ -15,18 +15,18 @@ def callTest(fileNameInput, fileNameOutput = None, extraarg = []):
     # I think whitespace changes don't matter
     ret = 0
     try:
-        subprocess.check_call(["diff", "-ub", "tests/" + fileNameOutput, "testfile"])
+        subprocess.check_call(["diff", "-ub", os.path.join("tests", fileNameOutput), "testfile"])
     except:
-        print("Differences between: '%s' and tests/%s" % (" ".join(command), fileNameOutput))
+        print("Differences between: '%s' and %s" % (" ".join(command), os.path.join("tests", fileNameOutput)))
         ret = 1
     return ret
 
 class TestIO(unittest.TestCase):
 
     def _testDir(self, testDirectory, checks):
-        for inputFile in os.listdir("tests/" + testDirectory):
+        for inputFile in os.listdir(os.path.join("tests", testDirectory)):
             if inputFile.endswith(".text.in"):
-                self.assertEqual(callTest(testDirectory + '/' + inputFile, testDirectory + '/' + inputFile.replace(".in", ".out"), checks), 0)
+                self.assertEqual(callTest(os.path.join(testDirectory, inputFile), os.path.join(testDirectory, inputFile.replace(".in", ".out")), checks), 0)
 
     def test_invariant(self):
         self.assertEqual(callTest("a.text.in"), 0)
@@ -38,7 +38,7 @@ class TestIO(unittest.TestCase):
         self.assertEqual(callTest("testivena_mt.txt"), 0)
         self.assertEqual(callTest("testivena_ma.txt"), 0)
         self.assertEqual(callTest("bv_cs_nihenatuna_pt.txt"), 0)
-        self.assertEqual(callTest("deletion_tests/colon.text.out"), 0)
+        self.assertEqual(callTest(os.path.join("deletion_tests", "colon.text.out")), 0)
 
     def test_process(self):
         self.assertEqual(callTest("a.text.in", "a.text.out", ["ApostropheToQ"]), 0)
