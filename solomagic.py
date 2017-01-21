@@ -148,7 +148,7 @@ recordOperations = {
     "DeleteColon": lambda record: createMa(record, lambda tier: (word.replace(":", "") for word in tier)),
 
     # Getting rid of single characters surrounded by parentheses
-    "PhonBrackets": lambda record: createMa(record, lambda tier: (re.sub(r"\((.)\)", r"\1", word) for word in tier)),
+    "PhonBrackets": lambda record: createMa(record, lambda tier: (re.sub(r"\((.+)\)", r"\1", word) for word in tier)),
 
     "createMa": createMa,
     "clean": Record.clean

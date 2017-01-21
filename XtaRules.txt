@@ -1,8 +1,0 @@
-# These should only apply when <'ata>, <'eta> etc are full words, so I made them full-word rules
-
-"'ataToXta": lambda record: createMa(record, lambda tier: ("xta" if word=="'ata" else word for word in tier)),
-"'etaToXta": lambda record: createMa(record, lambda tier: ("xta" if word=="'eta" else word for word in tier)),
-"'itaToXta": lambda record: createMa(record, lambda tier: ("xta" if word=="'ita" else word for word in tier)),
-"'otaToXta": lambda record: createMa(record, lambda tier: ("xta" if word=="'ota" else word for word in tier)),
-"'utaToXta": lambda record: createMa(record, lambda tier: ("xta" if word=="'uta" else word for word in tier)),
-"NgtaToXta": lambda record: createMa(record, lambda tier: ("xta" if word=="ngta" else word for word in tier)),
