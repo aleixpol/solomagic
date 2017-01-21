@@ -150,6 +150,23 @@ recordOperations = {
     # Getting rid of single characters surrounded by parentheses
     "PhonBrackets": lambda record: createMa(record, lambda tier: (re.sub(r"\((.+)\)", r"\1", word) for word in tier)),
 
+
+    # I hope the rule template is so full-word, that the rules won't apply to things like
+    # <XXXeri> in <XXXeri/iri> nor to <nonovuluXXX> in <nonovuluXXX/onogu>
+    # (Originally I used \s to make sure, but I don't know if that's still necessary? I know \b won't work)
+    # OK, I'll just append a second set for you to choose from :-)
+
+    # - replace all instances of words ending in <XXX> (i.e. <wordXXX>) by <*>
+    "wordXXX": lambda record: createMa(record, lambda tier: ("*" if re.fullmatch(r"(\w+XXX)", word) else word for word in tier)),
+
+    # - replace all instances of words beginning with <XXX> (i.e. <XXXword>)  by <*>
+    "XXXword": lambda record: createMa(record, lambda tier: ("*" if re.fullmatch(r"(XXX\w+)", word) else word for word in tier)),
+
+    # - replace all instances of words ending in <-> by <*>
+    # - replace all instances of words beginning with <XXX> and ending in <-> by <*>
+    "wordHyphen": lambda record: createMa(record, lambda tier: ("*" if re.fullmatch(r"(\w+-)", word) else word for word in tier)),
+
+
     "createMa": createMa,
     "clean": Record.clean
 }
