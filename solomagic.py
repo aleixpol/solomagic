@@ -137,9 +137,15 @@ recordOperations = {
     "VaToIva": lambda record: createMa(record, lambda tier: ("iva" if word=="va" else word for word in tier)),
     "SenaToSoEna": lambda record: createMa(record, lambda tier: ("so ena" if word=="sena" else word for word in tier)),
     "SonaToSoOna": lambda record: createMa(record, lambda tier: ("so ona" if word=="sona" else word for word in tier)),
+    
+    "Gaha": lambda record: createMa(record, lambda tier: ("gaaha" if word=="gaha" else word for word in tier)),
+    "Samang": lambda record: createMa(record, lambda tier: ("samang" if word=="saman" else word for word in tier)),
+    "Osong": lambda record: createMa(record, lambda tier: ("osong" if word=="osom" else word for word in tier)),
+    "Vitu": lambda record: createMa(record, lambda tier: ("vituvitu" if word=="vitovito" else word for word in tier)),
 
     "qataToXta": lambda record: createMa(record, lambda tier: ("xta" if re.fullmatch(r"[q'][aeiou]ta", word) else word for word in tier)),
     "NgtaToXta": lambda record: createMa(record, lambda tier: ("xta" if word=="ngta" else word for word in tier)),
+   
 
     # Getting rid of single question marks surrounded by parentheses
     "DeleteQM": lambda record: createMa(record, lambda tier: (word.replace(r"(?)", "") for word in tier)),
@@ -148,14 +154,17 @@ recordOperations = {
     "DeleteColon": lambda record: createMa(record, lambda tier: (word.replace(":", "") for word in tier)),
 
     # Getting rid of single characters surrounded by parentheses
+<<<<<<< HEAD
+    #  "PhonBrackets": lambda record: createMa(record, lambda tier: (re.sub(r"\((.+)\)", r"\1", word) for word in tier)),
+    "PhonBrackets": lambda record: createMa(record, lambda tier: (re.sub(r"\((.)\)", r"\1", word) for word in tier)),
+=======
     "PhonBrackets": lambda record: createMa(record, lambda tier: (re.sub(r"\((.+)\)", r"\1", word) for word in tier)),
+>>>>>>> origin/master
 
 
     # I hope the rule template is so full-word, that the rules won't apply to things like
     # <XXXeri> in <XXXeri/iri> nor to <nonovuluXXX> in <nonovuluXXX/onogu>
-    # (Originally I used \s to make sure, but I don't know if that's still necessary? I know \b won't work)
-    # OK, I'll just append a second set for you to choose from :-)
-
+   
     # - replace all instances of words ending in <XXX> (i.e. <wordXXX>) by <*>
     "wordXXX": lambda record: createMa(record, lambda tier: ("*" if re.fullmatch(r"(\w+XXX)", word) else word for word in tier)),
 

@@ -54,7 +54,7 @@ class TestIO(unittest.TestCase):
         self._testDir("deletion_tests", checks)
 
     def test_replacements(self):
-        checks = ["XtoAsterisk", "SenaToSoEna", "SonaToSoOna", "VaToIva", "Veampeu"]
+        checks = ["XtoAsterisk", "Gaha", "Osong", "Samang" "SenaToSoEna", "SonaToSoOna", "VaToIva", "Veampeu", "Vitu"]
         self._testDir("MoreReplacementTests", checks)
 
     def test_xta(self):
@@ -68,6 +68,8 @@ class TestIO(unittest.TestCase):
     def test_regex(self):
     	checks = ["wordHyphen", "wordXXX", "XXXword"]
     	self._testDir("regex_tests", checks)
+    	
+    
 
 if __name__ == '__main__':
     unittest.main()
