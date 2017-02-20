@@ -67,7 +67,11 @@ class TestIO(unittest.TestCase):
 
     def test_regex(self):
     	checks = ["wordHyphen", "wordXXX", "XXXword"]
-    	self._testDir("regex_tests", checks)    	
-    
+    	self._testDir("regex_tests", checks)
+    	
+    def test_eat(self):
+    	checks = ["EatThem", "ItsEat", "TheirEat", "TheirEatR"]
+    	self._testDir("EatingSuite", checks)    	
+   
 if __name__ == '__main__':
     unittest.main()
