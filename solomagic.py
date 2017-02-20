@@ -142,10 +142,10 @@ recordOperations = {
     "Samang": lambda record: createMa(record, lambda tier: ("samang" if word=="saman" else word for word in tier)),
     "Osong": lambda record: createMa(record, lambda tier: ("osong" if word=="osom" else word for word in tier)),
     "Vitu": lambda record: createMa(record, lambda tier: ("vituvitu" if word=="vitovito" else word for word in tier)),
-
-    "qataToXta": lambda record: createMa(record, lambda tier: ("xta" if re.fullmatch(r"[q'][aeiou]ta", word) else word for word in tier)),
-    "NgtaToXta": lambda record: createMa(record, lambda tier: ("xta" if word=="ngta" else word for word in tier)),
    
+     "qataToXta": lambda record: createMa(record, lambda tier: ("xta" if re.fullmatch(r"[q'][aeiou]ta", word) else word for word in tier)),
+    "NgtaToXta": lambda record: createMa(record, lambda tier: ("xta" if word=="ngta" else word for word in tier)),
+    "qutaToXta": lambda record: createMa(record, lambda tier: ("xta" if word=="(qu)ta" else word for word in tier)),
 
     # Getting rid of single question marks surrounded by parentheses
     "DeleteQM": lambda record: createMa(record, lambda tier: (word.replace(r"(?)", "") for word in tier)),
