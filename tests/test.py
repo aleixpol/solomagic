@@ -71,7 +71,11 @@ class TestIO(unittest.TestCase):
     	
     def test_eat(self):
     	checks = ["EatThem", "ItsEat", "TheirEat", "TheirEatR"]
-    	self._testDir("EatingSuite", checks)    	
-   
+    	self._testDir("EatingSuite", checks)
+    	
+    def test_apple(self):
+    	checks = ["ApplAtae3p", "ApplEnaqa3p", "ApplI1pe", "ApplI1s", "ApplI2s", "ApplI3p", "ApplI3s", "ApplLagali3p", "ApplPoro3p", "ApplSali1s", "ApplSali2s", "ApplSali3p", "ApplHatoiva3p"]
+    	self._testDir("AppleSuite", checks)
+
 if __name__ == '__main__':
     unittest.main()
