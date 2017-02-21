@@ -54,7 +54,7 @@ class TestIO(unittest.TestCase):
         self._testDir("deletion_tests", checks)
 
     def test_replacements(self):
-        checks = ["XtoAsterisk", "Gaha", "Osong", "Samang" "SenaToSoEna", "SonaToSoOna", "VaToIva", "Veampeu", "Vitu"]
+        checks = ["XtoAsterisk", "Gaha", "Osong", "Samang", "SenaToSoEna", "SonaToSoOna", "VaToIva", "Veampeu", "Vitu"]
         self._testDir("MoreReplacementTests", checks)
 
     def test_xta(self):
