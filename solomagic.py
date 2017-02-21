@@ -173,13 +173,7 @@ recordOperations = {
     "DeleteColon": lambda record: createMa(record, lambda tier: (word.replace(":", "") for word in tier)),
 
     # Getting rid of single characters surrounded by parentheses
-<<<<<<< HEAD
-    #  "PhonBrackets": lambda record: createMa(record, lambda tier: (re.sub(r"\((.+)\)", r"\1", word) for word in tier)),
-    "PhonBrackets": lambda record: createMa(record, lambda tier: (re.sub(r"\((.)\)", r"\1", word) for word in tier)),
-=======
     "PhonBrackets": lambda record: createMa(record, lambda tier: (re.sub(r"\((.+)\)", r"\1", word) for word in tier)),
->>>>>>> origin/master
-
 
     # I hope the rule template is so full-word, that the rules won't apply to things like
     # <XXXeri> in <XXXeri/iri> nor to <nonovuluXXX> in <nonovuluXXX/onogu>
