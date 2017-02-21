@@ -18,6 +18,7 @@ The output will correspond to the resulting file, which can be redirected as des
 ```
 
 # Testing
+[![Build Status](https://travis-ci.org/aleixpol/solomagic.svg?branch=master)](https://travis-ci.org/aleixpol/solomagic)
 Tests are triggered by `tests/test.py`, can conveniently be called by `make check`.
 
 `*.in` files are input files and `*.out` are resulting files. To request new features, feel free to add more tests.
