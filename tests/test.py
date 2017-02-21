@@ -54,11 +54,11 @@ class TestIO(unittest.TestCase):
         self._testDir("deletion_tests", checks)
 
     def test_replacements(self):
-        checks = ["XtoAsterisk", "SenaToSoEna", "SonaToSoOna", "VaToIva", "Veampeu"]
+        checks = ["XtoAsterisk", "Gaha", "Osong", "Samang" "SenaToSoEna", "SonaToSoOna", "VaToIva", "Veampeu", "Vitu"]
         self._testDir("MoreReplacementTests", checks)
 
     def test_xta(self):
-        checks = ["qataToXta", "NgtaToXta"]
+        checks = ["qataToXta", "NgtaToXta", "qutaToXta"]
         self._testDir("xta_simple_tests", checks)
 
     def test_apostrophe(self):
@@ -68,6 +68,14 @@ class TestIO(unittest.TestCase):
     def test_regex(self):
     	checks = ["wordHyphen", "wordXXX", "XXXword"]
     	self._testDir("regex_tests", checks)
+    	
+    def test_eat(self):
+    	checks = ["EatThem", "ItsEat", "TheirEat", "TheirEatR"]
+    	self._testDir("EatingSuite", checks)
+    	
+    def test_apple(self):
+    	checks = ["ApplAtae3p", "ApplEnaqa3p", "ApplI1pe", "ApplI1s", "ApplI2s", "ApplI3p", "ApplI3s", "ApplLagali3p", "ApplPoro3p", "ApplSali1s", "ApplSali2s", "ApplSali3p", "ApplHatoiva3p"]
+    	self._testDir("AppleSuite", checks)
 
 if __name__ == '__main__':
     unittest.main()
